@@ -17,7 +17,7 @@ module.exports = {
   },
   themeConfig: {
     repo: "SDUOJ/SDUOJ",
-    docsRepo: "SDUOJ/SDUOJ/docs",
+    docsDir: "docs/",
     editLinks: true,
     locales: {
       "/": {
