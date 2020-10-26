@@ -1,0 +1,23 @@
+name: gh-deploy
+
+on: 
+  push:
+    branches: 
+      - main
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+    - run: yarn add -D vuepress
+    - run: yarn build
+    - run: cp docs/.vuepress/public/CNAME docs/.vuepress/dist/CNAME
+    
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v2.5.0
+      env:
+        ACTIONS_DEPLOY_KEY: ${{deploy_key}}
+        PUBLISH_BRANCH: gh-pages
+        PUBLISH_DIR: docs/.vuepress/dist
