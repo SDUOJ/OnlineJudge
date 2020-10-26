@@ -1,2 +1,3 @@
-# sduoj
+# SDUOJ
+
 The main repo for SDUOJ.
