@@ -3,7 +3,12 @@ name: gh-deploy
 on: 
   push:
     branches: 
-      - master
+    - master
+    paths:
+    - .github/workflows/vuepress-deploy.yml
+    - docs/
+    - package.json
+    - yarn.lock
 
 jobs:
   build-deploy:
