@@ -5,8 +5,8 @@ on:
     branches: 
     - master
     paths:
-    - .github/workflows/vuepress-deploy.yml
-    - docs/
+    - .github/workflows/gh-deploy.yml
+    - 'docs/**'
     - package.json
     - yarn.lock
 
