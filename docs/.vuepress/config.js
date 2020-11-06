@@ -27,12 +27,22 @@ module.exports = {
         lastUpdated: "上次更新",
         nav: [
           {
-            text: "指南",
-            link: "/guide/"
+            text: "用户手册",
+            link: "/user-manual/"
+          },
+          {
+            text: "OJ 搭建指南",
+            link: "/building-guide/"
+          },
+          {
+            text: "技术博客",
+            link: "/technology-blog/"
           }
         ],
         sidebar: {
-          "/guide/": genGuideSidebar(true)
+          "/user-manual/": genUserManualSidebar(true),
+          "/building-guide/": genBuildingGuideSidebar(true),
+          "/technology-blog/": genTechnologyBlogSidebar(true)
         }
       },
       "/en/": {
@@ -42,12 +52,22 @@ module.exports = {
         lastUpdated: "Last Updated",
         nav: [
           {
-            text: "Guide",
-            link: "/en/guide/"
+            text: "User Manual",
+            link: "/en/user-manual/"
+          },
+          {
+            text: "Building Guide",
+            link: "/en/building-guide/"
+          },
+          {
+            text: "Technology Blog",
+            link: "/en/technology-blog/"
           }
         ],
         sidebar: {
-          "/en/guide/": genGuideSidebar(false)
+          "/en/user-manual/": genUserManualSidebar(false),
+          "/en/building-guide/": genBuildingGuideSidebar(false),
+          "/en/technology-blog/": genTechnologyBlogSidebar(false)
         }
       }
     }
@@ -55,19 +75,100 @@ module.exports = {
 }
 
 
-function genGuideSidebar(isZh) {
+function genUserManualSidebar(isZh) {
   return [
     {
-      title: isZh ? "快速入门" : "Getting Start",
+      title: isZh ? "快速开始" : "Quick Start",
       collapsable: false,
       children: [
-        "", "start"
+        ""
       ]
     },
     {
-      title: isZh ? "核心功能" : "Core",
+      title: isZh ? "客户页手册" : "Client-Manual",
       collapsable: false,
       children: [
+        "client-manual"
+      ]
+    },
+    {
+      title: isZh ? "管理页手册" : "Manager-Manual",
+      collapsable: false,
+      children: [
+        "manager-manual"
+      ]
+    },
+    {
+      title: "FAQ",
+      collapsable: false,
+      children: [
+        "faq"
+      ]
+    }
+  ];
+}
+
+function genBuildingGuideSidebar(isZh) {
+  return [
+    {
+      title: isZh ? "快速开始" : "Quick Start",
+      collapsable: false,
+      children: [
+        ""
+      ]
+    },
+    {
+      title: isZh ? "详细教程" : "Detailed tutorial",
+      collapsable: false,
+      children: [
+        "tutorial"
+      ]
+    },
+    {
+      title: "FAQ",
+      collapsable: false,
+      children: [
+        "faq"
+      ]
+    }
+  ];
+}
+
+function genTechnologyBlogSidebar(isZh) {
+  return [
+    {
+      title: isZh ? "前言" : "Introduction",
+      collapsable: false,
+      children: [
+        ""
+      ]
+    },
+    {
+      title: isZh ? "前端技术" : "Front End Technology",
+      collapsable: false,
+      children: [
+        "front-end-technology"
+      ]
+    },
+    {
+      title: isZh ? "后端技术" : "Back End Technology",
+      collapsable: false,
+      children: [
+        "back-end-technology"
+      ]
+    },
+    {
+      title: isZh ? "评测机技术" : "Judger Technology",
+      collapsable: false,
+      children: [
+        "judger-technology"
+      ]
+    },
+    {
+      title: isZh ? "沙箱技术" : "Sandbox Technology",
+      collapsable: false,
+      children: [
+        "sandbox-technology"
       ]
     },
     {

@@ -2,18 +2,18 @@
 home: true
 heroImage: /img/logo.png
 actionText: 快速开始 →
-actionLink: /guide/
+actionLink: /user-manual/
 features:
-  - title: 超级特性1
-    details: 听起来非常牛逼的特性一应俱全。
-  - title: 超级特性2
-    details: 听起来非常牛逼的特性一应俱全。
-  - title: 超级特性3
-    details: 听起来非常牛逼的特性一应俱全。
+  - title: 用户体验
+    details: ...
+  - title: 易于扩展
+    details: ...
+  - title: 生态系统
+    details: ...
 footer: GPLv3 | © 2020-2020 SDUOJ
 ---
 
-### 当前最新版本
+### 首页待编辑
 
 ```cpp
 #include <stdio.h>
