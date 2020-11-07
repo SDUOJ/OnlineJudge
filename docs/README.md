@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /img/logo.png
-actionText: 快速开始 →
-actionLink: /user-manual/
+actionText: 用户手册 →
+actionLink: /user-manual/client-manual-home
 features:
   - title: 用户体验
     details: ...

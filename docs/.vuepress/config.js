@@ -28,7 +28,7 @@ module.exports = {
         nav: [
           {
             text: "用户手册",
-            link: "/user-manual/"
+            link: "/user-manual/client-manual-home"
           },
           {
             text: "OJ 搭建指南",
@@ -53,7 +53,7 @@ module.exports = {
         nav: [
           {
             text: "User Manual",
-            link: "/en/user-manual/"
+            link: "/en/user-manual/client-manual-home"
           },
           {
             text: "Building Guide",
@@ -77,25 +77,31 @@ module.exports = {
 
 function genUserManualSidebar(isZh) {
   return [
+    // {
+    //   title: isZh ? "快速开始" : "Quick Start",
+    //   collapsable: false,
+    //   children: [
+    //     ""
+    //   ]
+    // },
     {
-      title: isZh ? "快速开始" : "Quick Start",
+      title: isZh ? "客户手册" : "Client-Manual",
       collapsable: false,
       children: [
-        ""
+        "client-manual-home",
+        "client-manual-user",
+        "client-manual-problem",
+        "client-manual-submission",
+        "client-manual-contest"
       ]
     },
     {
-      title: isZh ? "客户页手册" : "Client-Manual",
+      title: isZh ? "管理手册" : "Manager-Manual",
       collapsable: false,
       children: [
-        "client-manual"
-      ]
-    },
-    {
-      title: isZh ? "管理页手册" : "Manager-Manual",
-      collapsable: false,
-      children: [
-        "manager-manual"
+        "manager-manual-user",
+        "manager-manual-problem",
+        "manager-manual-contest"
       ]
     },
     {

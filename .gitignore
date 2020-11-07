@@ -17,3 +17,5 @@ Thumbs.db
 node_modules/
 
 **.gpg
+
+docs/.vuepress/dist/
