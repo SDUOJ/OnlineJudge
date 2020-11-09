@@ -44,6 +44,6 @@
 
 ![img](/SDUOJ/img/client-manual/160467100118.jpg)
 
-最后是「用户状态框」，依次展示了用户头像、用户提交数、用户完成的题目数以及用户提交了但还未完成的题目数。
+最后是「User Practice Statistics」框，依次展示了用户头像、用户提交数、用户完成的题目数以及用户提交了但还未完成的题目数。
 
 ![img](/SDUOJ/img/client-manual/160467100147.jpg)
