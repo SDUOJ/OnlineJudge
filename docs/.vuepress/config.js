@@ -1,5 +1,5 @@
 module.exports = {
-  base: "/SDUOJ/",
+  base: "/",
   head: [
     ["link", { rel: "icon", href: `/favicon.ico` }]
   ],

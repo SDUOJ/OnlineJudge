@@ -2,29 +2,29 @@
 
 点击导航栏上的「Contest」区域，即可进入 OJ 的比赛页面，如下所示即为比赛首页部分。
 
-![img](/SDUOJ/img/client-manual/160467098889.jpg)
+![img](/img/client-manual/160467098889.jpg)
 
 ## 比赛表格
 
 比赛表格按顺序展示 OJ 上的所有比赛，每一行分别展示比赛时间、比赛类型、比赛标题以及当前用户是否参加过该比赛。其中比赛的开放模式分为三种：私有、公开、保护，分别对应着红色锁、橙色锁以及没有锁。
 
-![img](/SDUOJ/img/client-manual/160467098939.jpg)
+![img](/img/client-manual/160467098939.jpg)
 
 另外，比赛列表第一行右边的下拉框可以筛选不同类型的比赛，具体效果如下所示：
 
-![img](/SDUOJ/img/client-manual/160467098981.jpg)
+![img](/img/client-manual/160467098981.jpg)
 
 ## 近期比赛
 
 除此之外，比赛首页右边的「Upcoming」框显示近期即将开始的比赛，以及其对应的倒计时。
 
-![img](/SDUOJ/img/client-manual/160467099027.jpg)
+![img](/img/client-manual/160467099027.jpg)
 
 ## 比赛详情
 
 点击比赛标题，即可进入比赛的详情页，具体页面布局如下所示：
 
-![img](/SDUOJ/img/client-manual/160467099073.jpg)
+![img](/img/client-manual/160467099073.jpg)
 
 其中详情页最上方为比赛的基础信息，包括比赛标题、比赛来源、比赛类型、比赛开始时间、比赛时长。
 
@@ -34,32 +34,32 @@
 
 「Overview」页面用表格的形式展示比赛中的所有题目，其中一共有 4 列，分别是编号、题目标题、题目通过总数 / 提交总数以及当前用户的该题状态。
 
-![img](/SDUOJ/img/client-manual/160467099188.jpg)
+![img](/img/client-manual/160467099188.jpg)
 
 ## 题目预览
 
 点击比赛导航栏中的「Problem」，即可进入题目详情页，如下所示：
 
-![img](/SDUOJ/img/client-manual/160467099274.jpg)
+![img](/img/client-manual/160467099274.jpg)
 
 其中详情页的左边部分与题库的题目提交类似，分别展示题面以及代码提交框。
 
-![img](/SDUOJ/img/client-manual/160467099325.jpg)
+![img](/img/client-manual/160467099325.jpg)
 
 详情页的右边页面分别是快速切题框、题目基本信息框以及本场比赛所有题目的提交状态。
 
-![img](/SDUOJ/img/client-manual/160467099373.jpg)
+![img](/img/client-manual/160467099373.jpg)
 
 ## 提交状态
 
 点击比赛导航栏上的「Status」即可进入比赛的提交页面，显示所有参赛者在所有题上的提交状态，并支持按照用户、题目、评测结果以及语言进行搜索以及根据评测时间、评测内存进行排序。
 
-![img](/SDUOJ/img/client-manual/160467099416.jpg)
+![img](/img/client-manual/160467099416.jpg)
 
 ## 比赛榜单
 
 点击比赛导航栏上的「Rank」即可进入比赛的榜单页面，显示当前所有参赛者的过题数、罚时以及排名。
 
-![img](/SDUOJ/img/client-manual/160467099466.jpg)
+![img](/img/client-manual/160467099466.jpg)
 
 比赛榜单页面中的时间轴可以动态进行拉动，显示比赛每一个时间点下的排名状态。

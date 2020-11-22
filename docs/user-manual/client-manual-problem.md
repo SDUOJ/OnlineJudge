@@ -4,45 +4,45 @@
 
 题库表格展示 OJ 中所有的题目，其中可以按题目通过数对所有题目进行排序。另外，标题后方打上勾的题目为当前登陆用户已经完成的题目。
 
-![img](/SDUOJ/img/client-manual/160467098321.jpg)
+![img](/img/client-manual/160467098321.jpg)
 
 点击题库表格右上角的标签按钮，即可以显示题库中的每道题的标签，目前每道题还没分配标签。
 
-![img](/SDUOJ/img/client-manual/160467098391.jpg)
+![img](/img/client-manual/160467098391.jpg)
 
 ## 标签分类
 
 题库首页右边的分类框，显示 OJ 中所有的大类标签，触摸每一个大类标签，即可显示其对应的子标签。
 
-![img](/SDUOJ/img/client-manual/160467098448.jpg)
+![img](/img/client-manual/160467098448.jpg)
 
 ## 交题页面
 
 点击题库表格中每行的标题，即可进入该题所对应的交题页面。
 
-![img](/SDUOJ/img/client-manual/160467098495.jpg)
+![img](/img/client-manual/160467098495.jpg)
 
-![img](/SDUOJ/img/client-manual/160467098555.jpg)
+![img](/img/client-manual/160467098555.jpg)
 
 ## 题目信息
 
 在交题页面中，「Description」框为题面描述，「Details」框为题目基本信息，「Descriptions」框为该题不同版本的题面，「Recent Submissions」为该用户在该题最近几次的提交，其中点击「show all submissions」即进入「submission」页面，展示该用户在此题上的所有历史提交。
 
-![img](/SDUOJ/img/client-manual/160467098653.jpg)
+![img](/img/client-manual/160467098653.jpg)
 
 ## 代码提交
 
 题面描述框下方为代码输入框，其中代码输入框第一行左边为评测语言选择，如下图所示：
 
-![img](/SDUOJ/img/client-manual/160467098700.jpg)
+![img](/img/client-manual/160467098700.jpg)
 
 代码输入框第一行右边为上传代码的按钮，可以直接上传代码。
 
-![img](/SDUOJ/img/client-manual/160467098741.jpg)
+![img](/img/client-manual/160467098741.jpg)
 
 也可以直接使用代码输入框进行代码提交，如下图所示：
 
-![img](/SDUOJ/img/client-manual/160467098779.jpg)
+![img](/img/client-manual/160467098779.jpg)
 
 ## 题目评测
 
@@ -52,4 +52,4 @@
 
 另外，页面最底下用代码高亮文本框展示了提交后的代码，顺利完成题库基本功能。
 
-![img](/SDUOJ/img/client-manual/160467098836.jpg)
+![img](/img/client-manual/160467098836.jpg)
