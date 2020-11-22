@@ -1,14 +1,10 @@
 <img align="right" src="docs/.vuepress/public/img/logo.png" width=200 />
 
 <br />
-<br />
 
-# SDUOJ —— Open Source Online Judge System 
-> SDUOJ 开源在线评测系统
-<br />
+# SDUOJ
 
-<br />
-
+> SDUOJ Open Source Online Judge System 开源在线评测系统
 
 <table>
     <tr>
