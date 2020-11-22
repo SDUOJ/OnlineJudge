@@ -8,12 +8,12 @@ module.exports = {
       lang: "zh-CN",
       title: "SDUOJ",
       description: "开源在线评测系统"
-    },
-    "/en/": {
-      lang: "en-US",
-      title: "SDUOJ",
-      description: "Open Source Online Judge System"
-    }
+    }//, // 临时关闭英文版
+    // "/en/": {
+    //   lang: "en-US",
+    //   title: "SDUOJ",
+    //   description: "Open Source Online Judge System"
+    // }
   },
   themeConfig: {
     repo: "SDUOJ/SDUOJ",

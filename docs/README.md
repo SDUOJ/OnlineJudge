@@ -4,18 +4,90 @@ heroImage: /img/logo.png
 actionText: 用户手册 →
 actionLink: /user-manual/client-manual-home
 features:
-  - title: 用户体验
-    details: ...
-  - title: 易于扩展
-    details: ...
-  - title: 生态系统
-    details: ...
-footer: GPLv3 | © 2020-2020 SDUOJ
+  - title: 多业务场景
+    details: 评测模板、一题多面、虚拟评测、国际赛制（ACM/OI/IOI），广泛适用于实验训练、学生测试、赛事举办等场景
+  - title: 分布式架构
+    details: 基于微服务设计，模块细分更适合业务迭代，分布式架构为高并发、高容错、高可用提供支持
+  - title: 容器级交付
+    details: 提供 Docker 镜像，公有云或物理机，均可一键部署，一键扩缩容，以应对不同的流量场景和评测压力
+footer: GNU General Public License v3.0 | © 2020-2020 SDUOJ Dev Team. All Rights Reserved
 ---
 
-### 首页待编辑
+### 概览
 
-```cpp
-#include <stdio.h>
-```
+* 基于 Docker，公有云或物理机，均可一键部署！
+* 前后端分离，分布式微服务架构，可单独对某个服务动态扩缩容以应对不同场景的流量压力！
+* 评测机的多核平台调度方案，单点评测、多点评测，按需配置！  <img src="/img/image-20201122203804615.png" style="zoom: 55%;vertical-align: middle;" />
+* 多种国际赛制支持（ACM/OI/IOI）！
+* 评测模板，可自定义添加多语言支持！更有进阶模式支持数据结构课设、汇编语言实验、操作系统课设等个性化评测场景！
+* 一题多面，同一道题目，可有多个题面！可支持中文、英文、俄文等多语言！可支持复杂、精炼、变形题面等多形式！
+* Markdown & HTML 题面支持，随意创作丰富多彩的题面！
+* ~~虚拟评测，支持世界上多个知名 OJ 系统的远程提交，让训练数据沉淀到一方系统，为未来传承宝贵的数据资产！~~
+
+### 前端截图
+
+<img src="/img/image-20201122210911513.png" style="zoom:80%;" />
+
+<img src="/img/image-20201122211144679.png" style="zoom:80%;" />
+
+<img src="/img/image-20201122211232174.png" style="zoom:80%;" />
+
+<img src="/img/image-20201122212148575.png" style="zoom:80%;" />
+
+<details>
+<summary>更多截图，点击展开</summary>
+<br>
+
+<img src="/img/image-20201122210935648.png" style="zoom:80%;" />
+
+<img src="/img/image-20201122211308172.png" style="zoom:80%;" />
+
+
+<img src="/img/image-20201122212415897.png" style="zoom:80%;" />
+
+<img src="/img/image-20201122212452051.png" style="zoom:80%;" />
+
+<img src="/img/image-20201122212524787.png" style="zoom:80%;" />
+
+<img src="/img/image-20201122212606712.png" style="zoom:80%;" />
+
+<img src="/img/image-20201122212903607.png" style="zoom:80%;" />
+
+<img src="/img/image-20201122212835905.png" style="zoom:80%;" />
+
+</details>
+
+### 搭建指南
+
+架构图： 
+
+<div style="text-align: center;"><img src="/img/image-20201122204545807.png" style="zoom: 60%;"></div>
+
+[Click Here To Build A SDUOJ](/building-guide/)
+
+### 技术博客
+
+主要是：
+* 产品理念
+* 前端技术
+* 后端技术
+* 评测机技术
+* 沙箱技术
+
+[Click Here To View Tech Blog](/technology-blog/)
+
+
+### 浏览器支持
+
+Modern browsers (chrome, firefox) 和 Internet Explorer 10+.
+
+### 技术团队
+
+
+| [<img src="https://github.com/zhangt2333.png?s=64" width="100px;"/><br /><sub><b>zhangt2333</b></sub>](https://github.com/zhangt2333)<br />**1st dev team** | [<img src="https://github.com/jesHrz.png?s=64" width="100px;"/><br /><sub><b>jesHrz</b></sub>](https://github.com/jesHrz)<br />**1st dev team**<br /> | [<img src="https://github.com/GeneLiuXe.png?s=64" width="100px;"/><br /><sub><b>GeneLiuXe</b></sub>](https://github.com/GeneLiuXe)<br />**1st dev team** | [<img src="https://github.com/suxb201.png?s=64" width="100px;"/><br /><sub><b>suxb201</b></sub>](https://github.com/suxb201)<br />**1st dev team** | [<img src="https://github.com/Xrvitd.png?s=64" width="100px;"/><br /><sub><b>Xrvitd</b></sub>](https://github.com/Xrvitd)<br />**1st dev team** |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|            Waiting for you<br />**2nd dev team**             |                             ...                              |                             ...                              |                             ...                              |                             ...                              |
+### 许可
+
+基于 [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) 开源协议。
 
