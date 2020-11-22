@@ -1,19 +1,21 @@
 # SDUOJ —— Open Source Online Judge System
 
-<img src="docs/.vuepress/public/img/logo.png" style="zoom: 50%; vertical-align: middle;" />
+<p align="center">
+<img src="docs/.vuepress/public/img/logo.png" width=200 />
+<br>
+<a href="https://sduoj.online" target="_blank">SDUOJ 开源在线评测系统</a>
+</p>
 
-<div style="text-align: center;"><a href="https://sduoj.online" target="_blank">SDUOJ 开源在线评测系统</a></div>
-
-<div class="features" style="display: flex; justify-content: space-between;"> 
-    <div class="feature" style="max-width: 30%;">
+<div style="display: flex; justify-content: space-between;"> 
+    <div style="max-width: 30%;">
         <h2>多业务场景</h2> 
         <p>评测模板、一题多面、虚拟评测、国际赛制（ACM/OI/IOI），广泛适用于实验训练、学生测试、赛事举办等场景</p>
     </div>
-    <div class="feature" style="max-width: 30%;">
+    <div style="max-width: 30%;">
         <h2>分布式架构</h2> 
         <p>基于微服务设计，模块细分更适合业务迭代，分布式架构为高并发、高容错、高可用提供支持</p>
     </div>
-    <div class="feature" style="max-width: 30%;">
+    <div style="max-width: 30%;">
         <h2>容器级交付</h2> 
         <p>提供 Docker 镜像，公有云或物理机，均可一键部署，一键扩缩容，以应对不同的流量场景和评测压力</p>
     </div>
@@ -23,7 +25,7 @@
 
 * 基于 Docker，公有云或物理机，均可一键部署！
 * 前后端分离，分布式微服务架构，可单独对某个服务动态扩缩容以应对不同场景的流量压力！
-* 评测机的多核平台调度方案，单点评测、多点评测，按需配置！  <img src="docs/.vuepress/public/img/image-20201122203804615.png" style="zoom: 55%;vertical-align: middle;" />
+* 评测机的多核平台调度方案，单点评测、多点评测，按需配置！  <img src="docs/.vuepress/public/img/image-20201122203804615.png" style="zoom: 40%; vertical-align: middle;" />
 * 多种国际赛制支持（ACM/OI/IOI）！
 * 评测模板，可自定义添加多语言支持！更有进阶模式支持数据结构课设、汇编语言实验、操作系统课设等个性化评测场景！
 * 一题多面，同一道题目，可有多个题面！可支持中文、英文、俄文等多语言！可支持复杂、精炼、变形题面等多形式！
@@ -68,7 +70,6 @@
 架构图： 
 
 <div style="text-align: center;"><img src="docs/.vuepress/public/img/image-20201122204545807.png" style="zoom: 60%;"></div>
-
 [Click Here To Build A SDUOJ](https://sduoj.online/building-guide/)
 
 ### 技术博客
