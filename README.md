@@ -1,31 +1,38 @@
-# SDUOJ —— Open Source Online Judge System
+<img align="right" src="docs/.vuepress/public/img/logo.png" width=200 />
 
-<p align="center">
-<img src="docs/.vuepress/public/img/logo.png" width=200 />
-<br>
-<a href="https://sduoj.online" target="_blank">SDUOJ 开源在线评测系统</a>
-</p>
+<br />
+<br />
 
-<div style="display: flex; justify-content: space-between;"> 
-    <div style="max-width: 30%;">
-        <h2>多业务场景</h2> 
-        <p>评测模板、一题多面、虚拟评测、国际赛制（ACM/OI/IOI），广泛适用于实验训练、学生测试、赛事举办等场景</p>
-    </div>
-    <div style="max-width: 30%;">
-        <h2>分布式架构</h2> 
-        <p>基于微服务设计，模块细分更适合业务迭代，分布式架构为高并发、高容错、高可用提供支持</p>
-    </div>
-    <div style="max-width: 30%;">
-        <h2>容器级交付</h2> 
-        <p>提供 Docker 镜像，公有云或物理机，均可一键部署，一键扩缩容，以应对不同的流量场景和评测压力</p>
-    </div>
-</div>
+# SDUOJ —— Open Source Online Judge System 
+> SDUOJ 开源在线评测系统
+<br />
+
+<br />
+
+
+<table>
+    <tr>
+        <td>
+            <h3>多业务场景</h3> 
+            <p>评测模板、一题多面、虚拟评测、国际赛制（ACM/OI/IOI），广泛适用于实验训练、学生测试、赛事举办等场景</p>
+        </td>
+        <td>
+            <h3>分布式架构</h3> 
+            <p>基于微服务设计，模块细分更适合业务迭代，分布式架构为高并发、高容错、高可用提供支持</p>
+        </td>
+        <td>
+            <h3>容器级交付</h3> 
+            <p>提供 Docker 镜像，公有云或物理机，均可一键部署，一键扩缩容，以应对不同的流量场景和评测压力</p>
+        </td>
+    </tr>
+</table>
+
 
 ### 概览
 
 * 基于 Docker，公有云或物理机，均可一键部署！
 * 前后端分离，分布式微服务架构，可单独对某个服务动态扩缩容以应对不同场景的流量压力！
-* 评测机的多核平台调度方案，单点评测、多点评测，按需配置！  <img src="docs/.vuepress/public/img/image-20201122203804615.png" style="zoom: 40%; vertical-align: middle;" />
+* 评测机的多核平台调度方案，单点评测、多点评测，按需配置！  <img src="docs/.vuepress/public/img/image-20201122203804615.png" width=400 align="center"/>
 * 多种国际赛制支持（ACM/OI/IOI）！
 * 评测模板，可自定义添加多语言支持！更有进阶模式支持数据结构课设、汇编语言实验、操作系统课设等个性化评测场景！
 * 一题多面，同一道题目，可有多个题面！可支持中文、英文、俄文等多语言！可支持复杂、精炼、变形题面等多形式！
@@ -67,9 +74,8 @@
 
 ### 搭建指南
 
-架构图： 
+架构图：  <img src="docs/.vuepress/public/img/image-20201122204545807.png" width=650 align="center"/>
 
-<div style="text-align: center;"><img src="docs/.vuepress/public/img/image-20201122204545807.png" style="zoom: 60%;"></div>
 [Click Here To Build A SDUOJ](https://sduoj.online/building-guide/)
 
 ### 技术博客
@@ -89,11 +95,46 @@
 Modern browsers (chrome, firefox) 和 Internet Explorer 10+.
 
 ### 技术团队
+<table>
+    <tr>
+        <td align="center">
+            <img src="https://github.com/zhangt2333.png?s=64" width="100px;"/>
+            <br />
+            <a href="https://github.com/zhangt2333" target="_blank">zhangt2333</a>
+            <br />
+            <strong> 1st dev team </strong>
+        </td>
+        <td align="center">
+            <img src="https://github.com/jesHrz.png?s=64" width="100px;"/>
+            <br />
+            <a href="https://github.com/jesHrz" target="_blank">jesHrz</a>
+            <br />
+            <strong> 1st dev team </strong>
+        </td>
+        <td align="center">
+            <img src="https://github.com/GeneLiuXe.png?s=64" width="100px;"/>
+            <br />
+            <a href="https://github.com/GeneLiuXe" target="_blank">GeneLiuXe</a>
+            <br />
+            <strong> 1st dev team </strong>
+        </td>
+        <td align="center">
+            <img src="https://github.com/suxb201.png?s=64" width="100px;"/>
+            <br />
+            <a href="https://github.com/suxb201" target="_blank">suxb201</a>
+            <br />
+            <strong> 1st dev team </strong>
+        </td>
+        <td align="center">
+            <img src="https://github.com/Xrvitd.png?s=64" width="100px;"/>
+            <br />
+            <a href="https://github.com/Xrvitd" target="_blank">Xrvitd</a>
+            <br />
+            <strong> 1st dev team </strong>
+        </td>
+    </tr>
+</table>
 
-
-| [<img src="https://github.com/zhangt2333.png?s=64" width="100px;"/><br /><sub><b>zhangt2333</b></sub>](https://github.com/zhangt2333)<br />**1st dev team** | [<img src="https://github.com/jesHrz.png?s=64" width="100px;"/><br /><sub><b>jesHrz</b></sub>](https://github.com/jesHrz)<br />**1st dev team**<br /> | [<img src="https://github.com/GeneLiuXe.png?s=64" width="100px;"/><br /><sub><b>GeneLiuXe</b></sub>](https://github.com/GeneLiuXe)<br />**1st dev team** | [<img src="https://github.com/suxb201.png?s=64" width="100px;"/><br /><sub><b>suxb201</b></sub>](https://github.com/suxb201)<br />**1st dev team** | [<img src="https://github.com/Xrvitd.png?s=64" width="100px;"/><br /><sub><b>Xrvitd</b></sub>](https://github.com/Xrvitd)<br />**1st dev team** |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|            Waiting for you<br />**2nd dev team**             |                             ...                              |                             ...                              |                             ...                              |                             ...                              |
 ### 许可
 
 基于 [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) 开源协议。
