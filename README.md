@@ -4,7 +4,9 @@
 
 # SDUOJ
 
-> SDUOJ Open Source Online Judge System 开源在线评测系统
+> [Open Source Online Judge System 开源在线评测系统](https://sduoj.online)
+
+<br />
 
 <table>
     <tr>
