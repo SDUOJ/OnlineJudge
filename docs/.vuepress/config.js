@@ -6,7 +6,7 @@ module.exports = {
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "Open Source Online Judge System",
+      title: "SDUOJ",
       description: "开源在线评测系统"
     }//, // 临时关闭英文版
     // "/en/": {

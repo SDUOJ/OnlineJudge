@@ -1,12 +1,13 @@
 <img align="right" src="docs/.vuepress/public/img/logo.png" width=200 />
 
-如果觉得对你有帮助或者对该产品感兴趣，请您给点一个 Star，谢谢！
+*如果觉得对您有帮助或者对该产品感兴趣，请您给点一个 Star，谢谢！*
 
 # Online Judge
 
-> [Open Source Online Judge System 开源在线评测系统](https://github.com/SDUOJ/SDUOJ)
-> [→ 国内源文档](https://sduoj.gitee.io)
-> [→ 国际源文档](https://sduoj.online)
+
+> [Open Source Online Judge System 开源在线评测系统](https://github.com/SDUOJ/SDUOJ) <br />
+  [→ 文档（国内源，加速访问）](https://sduoj.gitee.io)  <br />
+  [→ 文档（国际源）](https://sduoj.online) 
 
 <br />
 

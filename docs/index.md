@@ -5,7 +5,7 @@ footer: GNU General Public License v3.0 | © 2020-2020 SDUOJ Dev Team. All Right
 ---
 
 <header class="hero">
-	<span>如果觉得对你有帮助或者对该产品感兴趣，请您给点一个 Star，谢谢！</span>
+	<span>如果觉得对您有帮助或者对该产品感兴趣，请您给点一个 Star，谢谢！</span>
 	<p class="action">
 		<a href="https://github.com/SDUOJ/SDUOJ" target="_blank" class="nav-link action-button" style="background-color: #1890db;     border-bottom: 1px solid #1890db;">
 			点个 Star
