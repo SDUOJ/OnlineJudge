@@ -1,6 +1,6 @@
 <img align="right" src="docs/.vuepress/public/img/logo.png" width=200 />
 
-<br />
+如果觉得对你有帮助或者对该产品感兴趣，请您给点一个 Star，谢谢！
 
 # SDUOJ
 
