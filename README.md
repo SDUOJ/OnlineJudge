@@ -2,9 +2,11 @@
 
 如果觉得对你有帮助或者对该产品感兴趣，请您给点一个 Star，谢谢！
 
-# SDUOJ
+# Online Judge
 
-> [Open Source Online Judge System 开源在线评测系统](https://sduoj.online)
+> [Open Source Online Judge System 开源在线评测系统](https://github.com/SDUOJ/SDUOJ)
+> [→ 国内源文档](https://sduoj.gitee.io)
+> [→ 国际源文档](https://sduoj.online)
 
 <br />
 

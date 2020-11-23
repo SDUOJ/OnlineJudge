@@ -6,7 +6,7 @@ module.exports = {
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "SDUOJ",
+      title: "Open Source Online Judge System",
       description: "开源在线评测系统"
     }//, // 临时关闭英文版
     // "/en/": {
@@ -16,7 +16,7 @@ module.exports = {
     // }
   },
   themeConfig: {
-    repo: "SDUOJ/SDUOJ",
+    repo: "SDUOJ/OnlineJudge",
     docsDir: "docs/",
     editLinks: true,
     locales: {
