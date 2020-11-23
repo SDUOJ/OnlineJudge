@@ -94,6 +94,8 @@ footer: GNU General Public License v3.0 | © 2020-2020 SDUOJ Dev Team. All Right
 架构图： 
 
 <div style="text-align: center;"><img src="/img/image-20201122204545807.png" style="zoom: 60%;"></div>
+
+
 [Click Here To Build A SDUOJ](/building-guide/)
 
 ### 技术博客
