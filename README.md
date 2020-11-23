@@ -5,7 +5,7 @@
 # Online Judge
 
 
-> [Open Source Online Judge System 开源在线评测系统](https://github.com/SDUOJ/SDUOJ) <br />
+> [Open Source Online Judge System 开源在线评测系统](https://github.com/SDUOJ/OnlineJudge) <br />
   [→ 文档（国内源，加速访问）](https://sduoj.gitee.io)  <br />
   [→ 文档（国际源）](https://sduoj.online) 
 
