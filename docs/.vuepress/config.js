@@ -1,7 +1,9 @@
 module.exports = {
   base: "/",
   head: [
-    ["link", { rel: "icon", href: `/favicon.ico` }]
+    ["link", { rel: "icon", href: `/favicon.ico` }],
+    ["meta", { name: "keywords", content: "Online Judge, Shandong, University, Online, Judge, ACM, ICPC, SDUOJ" }],
+    ["meta", { name: "description", content: "Shandong University Online Judge" }]
   ],
   locales: {
     "/": {
