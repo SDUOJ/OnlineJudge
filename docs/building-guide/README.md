@@ -17,10 +17,10 @@ docker 安装教程：[https://docs.docker.com/install](https://docs.docker.com/
 docker-compose 安装教程：[https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/)
 :::
 
-* 这里给出一个在阿里云 ECS（操作系统为 debian 10）上安装 `git`、 `docker` 和 `docker-compose` 的一条指令（如果您的环境已装有，请跳过）：
+* 这里给出一个在 debian 10 上安装 `git`、 `docker` 和 `docker-compose` 的一条指令（如果您的环境已装有，请跳过）：
 
 ```shell
-apt update && apt-get -y install apt-transport-https ca-certificates curl software-properties-common git python3-pip && curl -fsSL https://mirrors.aliyun.com/docker-ce/linux/debian/gpg | sudo apt-key add - && add-apt-repository "deb [arch=amd64] https://mirrors.aliyun.com/docker-ce/linux/debian $(lsb_release -cs) stable" && apt-get -y update && apt-get -y install docker-ce && pip3 install docker-compose
+apt update && apt-get -y install apt-transport-https ca-certificates curl software-properties-common git python3-pip && curl -fsSL https://mirrors.aliyun.com/docker-ce/linux/debian/gpg | apt-key add - && add-apt-repository "deb [arch=amd64] https://mirrors.aliyun.com/docker-ce/linux/debian $(lsb_release -cs) stable" && apt-get -y update && apt-get -y install docker-ce && pip3 install docker-compose
 ```
 
 ## 伪分布式部署<Badge text="beta" type="warning"/>
