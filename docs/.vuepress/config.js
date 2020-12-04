@@ -103,7 +103,8 @@ function genUserManualSidebar(isZh) {
       children: [
         "manager-manual-user",
         "manager-manual-problem",
-        "manager-manual-contest"
+        "manager-manual-contest",
+        "manager-manual-judgetemplate"
       ]
     },
     {

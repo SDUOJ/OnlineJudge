@@ -10,7 +10,7 @@
 * 预装软件：`git`、 `docker` 和 `docker-compose` 
 
 ::: warning 注意
-请保证 Docker 的版本大于等于 19.03.7。
+请保证 Docker 版本大于等于 19.03.7，Docker-Compose 版本大于等于 1.17.1。
 
 docker 安装教程：[https://docs.docker.com/install](https://docs.docker.com/install)
 
@@ -40,6 +40,11 @@ docker-compose -f sduoj-deploy/example/pseudo-distributed-ip.yaml up
 ```
 
 * 在 URL 中访问你的服务器 IP 即可，SDUOJ 的初始账号密码分别为 `superadmin`、`123456`，注意修改。
+
+尝鲜机器建议：
+
+* 在公有云上使用按量计费开启一个 ECS，要求 8G 或以上大小的内存
+* 虚拟机上安装一个 Linux 发行版（建议 Debian 10 或 Ubuntu 18.04）
 
 ::: warning 注意
 数据库、消息队列、Nacos 服务的端口是暴露的，如果是在公有云上进行临时生产，建议配置**网络安全组**，仅暴露需要的 22、80 等端口。在自己的物理服务器上同理。
