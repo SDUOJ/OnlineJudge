@@ -24,6 +24,9 @@ A clear and concise description of what you expected to happen.
 **Environment:**
 
  - OS: [e.g. debian 10]
+ - CPU: [e.g. 4 Core]
+ - RAM: [e.g. 8 GB]
+ - Disk: [e.g. 40 GB]
  - Docker Version: [e.g. 19.03.7]
  - Docker-Compose Version: [e.g. 1.17.1]
 
