@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /img/logo.png
-footer: GNU General Public License v3.0 | © 2020-2020 SDUOJ Dev Team. All Rights Reserved
+footer: GNU General Public License v3.0 | © 2020-2021 SDUOJ Dev Team. All Rights Reserved
 ---
 
 <header class="hero">
@@ -55,7 +55,7 @@ footer: GNU General Public License v3.0 | © 2020-2020 SDUOJ Dev Team. All Right
 * 一题多面，同一道题目，可有多个题面！可支持中文、英文、俄文等多语言！可支持复杂、精炼、变形题面等多形式！
 * Markdown & HTML 题面支持，随意创作丰富多彩的题面！
 * 动态评测，提交后每个评测点实时返回评测结果！
-* 多评测点，单独赋分，动态调整测试点的顺序，直接选取测试点直接作为题面样例点！
+* 多评测点，单独赋分，动态调整测试点的顺序，直接选取测试点作为题面样例点！
 * ~~虚拟评测，支持世界上多个知名 OJ 系统的远程提交，让训练数据沉淀到一方系统，为未来传承宝贵的数据资产！~~
 
 ### 前端截图
