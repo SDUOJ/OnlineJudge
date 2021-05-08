@@ -44,7 +44,10 @@ git clone https://github.com/SDUOJ/sduoj-deploy.git
 docker-compose -f sduoj-deploy/example/pseudo-distributed-ip.yaml up
 ```
 
-* 在 URL 中访问你的服务器 IP 即可，SDUOJ 的初始账号密码分别为 `superadmin`、`123456`，注意修改。
+* 在 URL 中访问你的服务器 IP 即可，一些初始账号如下，安全起见请注意修改：
+    * SDUOJ 的初始账号密码分别为 `superadmin`、`123456`，注意修改。
+    * Nacos 的初始账号密码分别为 `sduoj`、`sduoj`，注意修改。
+    * MySQL 的初始账号密码分别为 `sduoj`、`sduoj`，注意修改。
 
 尝鲜机器建议：
 
