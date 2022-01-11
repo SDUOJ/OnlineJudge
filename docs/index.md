@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /img/logo.png
-footer: GNU General Public License v3.0 | © 2020-2021 SDUOJ Dev Team. All Rights Reserved
+footer: GNU Affero General Public License v3.0 | © 2020-2022 SDUOJ Dev Team. All Rights Reserved
 ---
 
 <header class="hero">
