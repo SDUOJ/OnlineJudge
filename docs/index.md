@@ -58,6 +58,16 @@ footer: GNU Affero General Public License v3.0 | © 2020-2023 SDUOJ Dev Team. Al
 * 多评测点，单独赋分，动态调整测试点的顺序，直接选取测试点作为题面样例点！
 * ~~虚拟评测，支持世界上多个知名 OJ 系统的远程提交，让训练数据沉淀到一方系统，为未来传承宝贵的数据资产！~~
 
+### 项目仓库
+
+* [SDUOJ/OnlineJudge](https://github.com/SDUOJ/OnlineJudge)：产品主仓库、Issue Tracker
+* [SDUOJ/sduoj-server](https://github.com/SDUOJ/sduoj-server)：后端代码仓库
+* [SDUOJ/sduoj-web](https://github.com/SDUOJ/sduoj-web)：用户前端代码仓库
+* [SDUOJ/sduoj-manage](https://github.com/SDUOJ/sduoj-manage)：管理员前端代码仓库
+* [SDUOJ/sduoj-judger](https://github.com/SDUOJ/sduoj-judger)：评测机代码仓库
+* [SDUOJ/sduoj-sandbox](https://github.com/SDUOJ/sduoj-sandbox)：安全沙箱代码仓库
+* [SDUOJ/sduoj-deploy](https://github.com/SDUOJ/sduoj-deploy)：部署代码仓库，含 docker-compose 脚本
+
 ### 前端截图
 
 <img src="/img/image-20201122210911513.png" style="zoom:80%;" />
