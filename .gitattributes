@@ -1,0 +1,5 @@
+* text=auto
+*.js text eol=lf
+*.md text eol=lf
+*.js linguist-language=Java
+*.md linguist-language=Java

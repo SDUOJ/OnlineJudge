@@ -42,6 +42,16 @@
 * 多评测点，单独赋分，动态调整测试点的顺序，直接选取测试点作为题面样例点！
 * ~~虚拟评测，支持世界上多个知名 OJ 系统的远程提交，让训练数据沉淀到一方系统，为未来传承宝贵的数据资产！~~
 
+### 项目仓库
+
+* [SDUOJ/OnlineJudge](https://github.com/SDUOJ/OnlineJudge)：产品主仓库、Issue Tracker
+* [SDUOJ/sduoj-server](https://github.com/SDUOJ/sduoj-server)：后端代码仓库
+* [SDUOJ/sduoj-web](https://github.com/SDUOJ/sduoj-web)：用户前端代码仓库
+* [SDUOJ/sduoj-manage](https://github.com/SDUOJ/sduoj-web)：管理员前端代码仓库
+* [SDUOJ/sduoj-judger](https://github.com/SDUOJ/sduoj-judger)：评测机代码仓库
+* [SDUOJ/sduoj-sandbox](https://github.com/SDUOJ/sduoj-sandbox)：安全沙箱代码仓库
+* [SDUOJ/sduoj-deploy](https://github.com/SDUOJ/sduoj-deploy)：部署代码仓库，含 docker-compose 脚本
+
 ### 前端截图
 
 <img src="docs/.vuepress/public/img/image-20201122210911513.png" style="zoom:80%;" />
@@ -101,42 +111,99 @@ Modern browsers (chrome, firefox) 和 Internet Explorer 10+.
 <table>
     <tr>
         <td align="center">
-            <img src="https://github.com/zhangt2333.png?s=64" width="100px;"/>
+            <img src="https://github.com/zhangt2333.png?s=64" width="65px;"/>
             <br />
             <a href="https://github.com/zhangt2333" target="_blank">zhangt2333</a>
             <br />
-            <strong> 1st dev team </strong>
+            <strong> Leader, Backend </strong>
         </td>
         <td align="center">
-            <img src="https://github.com/jesHrz.png?s=64" width="100px;"/>
+            <img src="https://github.com/yhf2000.png?s=64" width="65px;"/>
+            <br />
+            <a href="https://github.com/yhf2000" target="_blank">yhf2000</a>
+            <br />
+            <strong> Leader, Frontend </strong>
+        </td>
+        <td align="center">
+            <img src="https://github.com/jesHrz.png?s=64" width="65px;"/>
             <br />
             <a href="https://github.com/jesHrz" target="_blank">jesHrz</a>
             <br />
-            <strong> 1st dev team </strong>
+            <strong> Leader, Sandbox </strong>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <img src="https://github.com/koi2000.png?s=64" width="65px;"/>
+            <br />
+            <a href="https://github.com/koi2000" target="_blank">koi2000</a>
+            <br />
+            <strong> Backend </strong>
         </td>
         <td align="center">
-            <img src="https://github.com/GeneLiuXe.png?s=64" width="100px;"/>
+            <img src="https://github.com/HYLazy.png?s=64" width="65px;"/>
+            <br />
+            <a href="https://github.com/HYLazy" target="_blank">HYLazy</a>
+            <br />
+            <strong> Backend </strong>
+        </td>
+        <td align="center">
+            <img src="https://github.com/zhaoyifan0528.png?s=64" width="65px;"/>
+            <br />
+            <a href="https://github.com/zhaoyifan0528" target="_blank">zhaoyifan0528</a>
+            <br />
+            <strong> Backend </strong>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <img src="https://github.com/OldAtaraxia.png?s=64" width="65px;"/>
+            <br />
+            <a href="https://github.com/OldAtaraxia" target="_blank">OldAtaraxia</a>
+            <br />
+            <strong> Backend </strong>
+        </td>
+        <td align="center">
+            <img src="https://github.com/zhr2001.png?s=64" width="65px;"/>
+            <br />
+            <a href="https://github.com/zhr2001" target="_blank">zhr2001</a>
+            <br />
+            <strong> Frontend </strong>
+        </td>
+        <td align="center">
+            <img src="https://github.com/sys16384.png?s=64" width="65px;"/>
+            <br />
+            <a href="https://github.com/sys16384" target="_blank">sys16384</a>
+            <br />
+            <strong> Plagiarism Detection </strong>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <img src="https://github.com/GeneLiuXe.png?s=64" width="65px;"/>
             <br />
             <a href="https://github.com/GeneLiuXe" target="_blank">GeneLiuXe</a>
             <br />
-            <strong> 1st dev team </strong>
+            <strong> Honorary Mem. </strong>
         </td>
         <td align="center">
-            <img src="https://github.com/suxb201.png?s=64" width="100px;"/>
+            <img src="https://github.com/suxb201.png?s=64" width="65px;"/>
             <br />
             <a href="https://github.com/suxb201" target="_blank">suxb201</a>
             <br />
-            <strong> 1st dev team </strong>
+            <strong> Honorary Mem. </strong>
         </td>
         <td align="center">
-            <img src="https://github.com/Xrvitd.png?s=64" width="100px;"/>
+            <img src="https://github.com/Xrvitd.png?s=64" width="65px;"/>
             <br />
             <a href="https://github.com/Xrvitd" target="_blank">Xrvitd</a>
             <br />
-            <strong> 1st dev team </strong>
+            <strong> Honorary Mem. </strong>
         </td>
     </tr>
 </table>
+
+
 
 ### 许可
 

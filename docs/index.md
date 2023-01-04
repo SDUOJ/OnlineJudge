@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /img/logo.png
-footer: GNU Affero General Public License v3.0 | © 2020-2022 SDUOJ Dev Team. All Rights Reserved
+footer: GNU Affero General Public License v3.0 | © 2020-2023 SDUOJ Dev Team. All Rights Reserved
 ---
 
 <header class="hero">
@@ -120,49 +120,94 @@ Modern browsers (chrome, firefox) 和 Internet Explorer 10+.
 <table>
     <tr>
         <td align="center">
-            <a href="https://github.com/zhangt2333" target="_blank">
-                <img src="https://github.com/zhangt2333.png?s=64" width="100px;"/>
-                <br />
-                zhangt2333
-            </a>
+            <img src="https://github.com/zhangt2333.png?s=64" width="65px;"/>
             <br />
-            <strong> 1st dev team </strong>
+            <a href="https://github.com/zhangt2333" target="_blank">zhangt2333</a>
+            <br />
+            <strong> Leader, Backend </strong>
         </td>
         <td align="center">
-            <a href="https://github.com/jesHrz" target="_blank">
-                <img src="https://github.com/jesHrz.png?s=64" width="100px;"/>
-                <br />
-                jesHrz
-            </a>
+            <img src="https://github.com/yhf2000.png?s=64" width="65px;"/>
             <br />
-            <strong> 1st dev team </strong>
+            <a href="https://github.com/yhf2000" target="_blank">yhf2000</a>
+            <br />
+            <strong> Leader, Frontend </strong>
         </td>
         <td align="center">
-            <a href="https://github.com/GeneLiuXe" target="_blank">
-                <img src="https://github.com/GeneLiuXe.png?s=64" width="100px;"/>
-                <br />
-                GeneLiuXe
-            </a>
+            <img src="https://github.com/jesHrz.png?s=64" width="65px;"/>
             <br />
-            <strong> 1st dev team </strong>
+            <a href="https://github.com/jesHrz" target="_blank">jesHrz</a>
+            <br />
+            <strong> Leader, Sandbox </strong>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <img src="https://github.com/koi2000.png?s=64" width="65px;"/>
+            <br />
+            <a href="https://github.com/koi2000" target="_blank">koi2000</a>
+            <br />
+            <strong> Backend </strong>
         </td>
         <td align="center">
-            <a href="https://github.com/suxb201" target="_blank">
-                <img src="https://github.com/suxb201.png?s=64" width="100px;"/>
-                <br />
-                suxb201
-            </a>
+            <img src="https://github.com/HYLazy.png?s=64" width="65px;"/>
             <br />
-            <strong> 1st dev team </strong>
+            <a href="https://github.com/HYLazy" target="_blank">HYLazy</a>
+            <br />
+            <strong> Backend </strong>
         </td>
         <td align="center">
-            <a href="https://github.com/Xrvitd" target="_blank">
-                <img src="https://github.com/Xrvitd.png?s=64" width="100px;"/>
-                <br />
-                Xrvitd
-            </a>
+            <img src="https://github.com/zhaoyifan0528.png?s=64" width="65px;"/>
             <br />
-            <strong> 1st dev team </strong>
+            <a href="https://github.com/zhaoyifan0528" target="_blank">zhaoyifan0528</a>
+            <br />
+            <strong> Backend </strong>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <img src="https://github.com/OldAtaraxia.png?s=64" width="65px;"/>
+            <br />
+            <a href="https://github.com/OldAtaraxia" target="_blank">OldAtaraxia</a>
+            <br />
+            <strong> Backend </strong>
+        </td>
+        <td align="center">
+            <img src="https://github.com/zhr2001.png?s=64" width="65px;"/>
+            <br />
+            <a href="https://github.com/zhr2001" target="_blank">zhr2001</a>
+            <br />
+            <strong> Frontend </strong>
+        </td>
+        <td align="center">
+            <img src="https://github.com/sys16384.png?s=64" width="65px;"/>
+            <br />
+            <a href="https://github.com/sys16384" target="_blank">sys16384</a>
+            <br />
+            <strong> Plagiarism Detection </strong>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <img src="https://github.com/GeneLiuXe.png?s=64" width="65px;"/>
+            <br />
+            <a href="https://github.com/GeneLiuXe" target="_blank">GeneLiuXe</a>
+            <br />
+            <strong> Honorary Mem. </strong>
+        </td>
+        <td align="center">
+            <img src="https://github.com/suxb201.png?s=64" width="65px;"/>
+            <br />
+            <a href="https://github.com/suxb201" target="_blank">suxb201</a>
+            <br />
+            <strong> Honorary Mem. </strong>
+        </td>
+        <td align="center">
+            <img src="https://github.com/Xrvitd.png?s=64" width="65px;"/>
+            <br />
+            <a href="https://github.com/Xrvitd" target="_blank">Xrvitd</a>
+            <br />
+            <strong> Honorary Mem. </strong>
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ features:
     details: something......
   - title: Ecological
     details: something......
-footer: AGPLv3 | Copyright © 2020-2022 SDUOJ
+footer: AGPLv3 | Copyright © 2020-2023 SDUOJ
 ---
 
 ### hold on

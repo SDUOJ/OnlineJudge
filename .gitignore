@@ -9,7 +9,7 @@ gem
 # VS Code project files
 .vscode/
 
-# MacOS files
+# macOS files
 .DS_Store
 Thumbs.db
 
