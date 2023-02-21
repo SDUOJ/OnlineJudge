@@ -34,7 +34,7 @@ module.exports = {
           },
           {
             text: "OJ 搭建指南",
-            link: "/building-guide/"
+            link: "/deployment-guide/"
           },
           {
             text: "技术博客",
@@ -43,7 +43,7 @@ module.exports = {
         ],
         sidebar: {
           "/user-manual/": genUserManualSidebar(true),
-          "/building-guide/": genBuildingGuideSidebar(true),
+          "/deployment-guide/": genDeploymentGuideSidebar(true),
           "/technology-blog/": genTechnologyBlogSidebar(true)
         }
       },
@@ -58,8 +58,8 @@ module.exports = {
             link: "/en/user-manual/client-manual-home"
           },
           {
-            text: "Building Guide",
-            link: "/en/building-guide/"
+            text: "Deployment Guide",
+            link: "/en/deployment-guide/"
           },
           {
             text: "Technology Blog",
@@ -68,7 +68,7 @@ module.exports = {
         ],
         sidebar: {
           "/en/user-manual/": genUserManualSidebar(false),
-          "/en/building-guide/": genBuildingGuideSidebar(false),
+          "/en/deployment-guide/": genDeploymentGuideSidebar(false),
           "/en/technology-blog/": genTechnologyBlogSidebar(false)
         }
       }
@@ -117,7 +117,7 @@ function genUserManualSidebar(isZh) {
   ];
 }
 
-function genBuildingGuideSidebar(isZh) {
+function genDeploymentGuideSidebar(isZh) {
   return [
     {
       title: isZh ? "快速开始" : "Quick Start",

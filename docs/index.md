@@ -107,7 +107,7 @@ footer: GNU Affero General Public License v3.0 | © 2020-2023 SDUOJ Dev Team. Al
 
 <div style="text-align: center;"><img src="/img/image-20201122204545807.png" style="zoom: 60%;"></div>
 
-[Click Here To Build A SDUOJ](/building-guide/)
+[Click here to deploy a SDUOJ](/deployment-guide/)
 
 ### 技术博客
 
@@ -118,7 +118,7 @@ footer: GNU Affero General Public License v3.0 | © 2020-2023 SDUOJ Dev Team. Al
 * 评测机技术
 * 沙箱技术
 
-[Click Here To View Tech Blog](/technology-blog/)
+[Click here to view tech blog](/technology-blog/)
 
 
 ### 浏览器支持

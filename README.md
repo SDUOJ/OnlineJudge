@@ -89,7 +89,7 @@
 
 架构图：  <img src="docs/.vuepress/public/img/image-20201122204545807.png" width=650 align="center"/>
 
-[Click Here To Build A SDUOJ](https://sduoj.online/building-guide/)
+[Click here to deploy a SDUOJ](https://sduoj.online/deployment-guide/)
 
 ### 技术博客
 
@@ -100,7 +100,7 @@
 * 评测机技术
 * 沙箱技术
 
-[Click Here To View Tech Blog](https://sduoj.online/technology-blog/)
+[Click here to view tech blog](https://sduoj.online/technology-blog/)
 
 
 ### 浏览器支持
