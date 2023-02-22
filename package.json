@@ -1,13 +1,9 @@
 {
-  "name": "SDUOJ",
-  "version": "1.0.0",
-  "private": true,
-  "devDependencies": {
-    "vuepress": "^1.7.1"
-  },
   "scripts": {
-    "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "deploy-gh": "GH=1 yarn build && bash scripts/deploy-gh.sh"
+    "dev": "vuepress dev docs"
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.8"
   }
 }

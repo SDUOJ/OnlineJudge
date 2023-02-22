@@ -3,26 +3,39 @@ name: gh-deploy
 on: 
   push:
     branches: 
-    - master
+      - master
     paths:
-    - .github/workflows/gh-deploy.yml
-    - 'docs/**'
-    - package.json
-    - yarn.lock
+      - '.github/workflows/**'
+      - 'docs/**'
+      - package.json
+      - yarn.lock
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
-    
+
+    permissions:
+      contents: write
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+
     steps:
-    - uses: actions/checkout@v1
-    - run: yarn add -D vuepress
-    - run: yarn build
-    - run: cp docs/.vuepress/public/CNAME docs/.vuepress/dist/CNAME
-    
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v2.5.0
-      env:
-        ACTIONS_DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
-        PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: docs/.vuepress/dist
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Build
+        run: |
+          yarn add -D vuepress
+          yarn build
+          cp docs/.vuepress/public/CNAME docs/.vuepress/dist/CNAME
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: docs/.vuepress/dist
