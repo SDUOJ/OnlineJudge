@@ -123,7 +123,11 @@ footer: GNU Affero General Public License v3.0 | © 2020-2023 SDUOJ Dev Team. Al
 
 ### 浏览器支持
 
-Modern browsers (chrome, firefox) 和 Internet Explorer 10+.
+For Vue frontend:
+-  Modern browsers (chrome, firefox) 和 Internet Explorer 10+.
+
+For React frontend:
+-  Microsoft Edge (85+), Google Chrome (85+), Mozilla Firefox (79+), Apple Safari (13.4+), Internet Explorer is not supported
 
 ### 技术团队
 
