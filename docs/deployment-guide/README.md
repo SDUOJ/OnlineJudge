@@ -38,10 +38,16 @@ apt update && apt-get -y install apt-transport-https ca-certificates curl softwa
 git clone https://github.com/SDUOJ/sduoj-deploy.git
 ```
 
+* 进入 `sduoj-deploy` 项目目录
+
+```shell
+cd sduoj-deploy/example
+```
+
 * 执行 `docker-compose` 启动预编排好的各个服务
 
 ```shell
-docker-compose -f sduoj-deploy/example/pseudo-distributed-ip.yaml up
+docker-compose -f pseudo-distributed-ip.yaml up
 ```
 
 * 在 URL 中访问你的服务器 IP 即可，一些初始账号如下，安全起见请注意修改：
