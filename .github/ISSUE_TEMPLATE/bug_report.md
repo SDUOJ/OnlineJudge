@@ -23,12 +23,12 @@ A clear and concise description of what you expected to happen.
 
 **Environment:**
 
- - OS: [e.g. debian 10]
+ - OS: [e.g. Ubuntu 22.04]
  - CPU: [e.g. 4 Core]
- - RAM: [e.g. 8 GB]
- - Disk: [e.g. 40 GB]
- - Docker Version: [e.g. 19.03.7]
- - Docker-Compose Version: [e.g. 1.17.1]
+ - RAM: [e.g. 16 GB]
+ - Disk: [e.g. 20 GB]
+ - Docker Version: [e.g. 23.0.2]
+ - Docker-compose-plugin Version: [e.g. 2.17.2]
 
 **Additional context**
 Add any other context about the problem here.
