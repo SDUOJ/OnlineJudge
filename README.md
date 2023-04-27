@@ -44,13 +44,15 @@
 
 ### 项目仓库
 
-* [SDUOJ/OnlineJudge](https://github.com/SDUOJ/OnlineJudge)：产品主仓库、Issue Tracker
-* [SDUOJ/sduoj-server](https://github.com/SDUOJ/sduoj-server)：后端代码仓库
-* [SDUOJ/sduoj-web](https://github.com/SDUOJ/sduoj-web)：用户前端代码仓库
-* [SDUOJ/sduoj-manage](https://github.com/SDUOJ/sduoj-manage)：管理员前端代码仓库
-* [SDUOJ/sduoj-judger](https://github.com/SDUOJ/sduoj-judger)：评测机代码仓库
-* [SDUOJ/sduoj-sandbox](https://github.com/SDUOJ/sduoj-sandbox)：安全沙箱代码仓库
-* [SDUOJ/sduoj-deploy](https://github.com/SDUOJ/sduoj-deploy)：部署代码仓库，含 docker-compose 脚本
+| 仓库                                                         | 描述                                 |
+| ------------------------------------------------------------ | ------------------------------------ |
+| [SDUOJ/OnlineJudge](https://github.com/SDUOJ/OnlineJudge)    | 产品主仓库、Issue Tracker            |
+| [SDUOJ/sduoj-server](https://github.com/SDUOJ/sduoj-server)  | 后端代码仓库                         |
+| [SDUOJ/sduoj-web](https://github.com/SDUOJ/sduoj-web)        | 用户前端代码仓库                     |
+| [SDUOJ/sduoj-manage](https://github.com/SDUOJ/sduoj-manage)  | 管理员前端代码仓库                   |
+| [SDUOJ/sduoj-judger](https://github.com/SDUOJ/sduoj-judger)  | 评测机代码仓库                       |
+| [SDUOJ/sduoj-sandbox](https://github.com/SDUOJ/sduoj-sandbox) | 安全沙箱代码仓库                     |
+| [SDUOJ/sduoj-deploy](https://github.com/SDUOJ/sduoj-deploy)  | 部署代码仓库，含 Docker Compose 脚本 |
 
 ### 前端截图
 

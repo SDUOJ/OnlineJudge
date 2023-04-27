@@ -10,26 +10,21 @@ SDUOJ 尚未发布第一个稳定版本，对于生产用途 SDUOJ 开发者建�
 
 ## 先决条件
 
-* 操作系统：Linux 发行版（Windows 和 MacOS 都不保证可成功）
-* 预装软件：`git`、 `docker` 和 `docker-compose-plugin` 
+* 操作系统：Linux 发行版（Windows 和 macOS 都不保证可成功）
+* 必备软件：
+    * [git](https://git-scm.com/)
+    * [docker](https://docs.docker.com/get-docker/) ：版本大于等于 `23.0.2`
+    *  [docker-compose-plugin](https://docs.docker.com/compose/install/linux/)：版本大于等于 `2.17.2`
 
-::: warning 注意
-请保证 Docker 版本大于等于 23.0.2，Docker-compose-plugin 版本大于等于 2.17.2。
 
-Docker 安装教程：[https://docs.docker.com/install](https://docs.docker.com/install)
-
-Docker-compose-plugin 安装教程：[https://docs.docker.com/compose/install/linux/](https://docs.docker.com/compose/install/linux/)
-:::
-
-* 这里给出一个在 Ubuntu 22.04 上安装 `git`、 `docker` 和 `docker-compose-plugin` 的一条指令（如果您的环境已装有，请跳过）：
+* 在 Ubuntu 22.04 上安装以上必备软件的指令（如果您的环境已装有，请跳过）：
 
 ```shell
-apt update \
- && apt-get -y install apt-transport-https ca-certificates curl software-properties-common git \
- && curl -fsSL https://mirrors.aliyun.com/docker-ce/linux/ubuntu/gpg | apt-key add - \
- && add-apt-repository "deb [arch=amd64] https://mirrors.aliyun.com/docker-ce/linux/ubuntu $(lsb_release -cs) stable" \
- && apt-get -y update \
- && apt-get -y install docker-ce docker-compose-plugin
+# 以下这行是设置下载 Docker 的镜像，如不需要可以跳过
+export DOWNLOAD_URL="https://mirrors.cernet.edu.cn/docker-ce"
+sudo apt-get update \
+ && sudo apt-get install -qq -y curl git \
+ && curl -fsSL https://get.docker.com/ | sudo -E sh
 ```
 
 ## 伪分布式部署<Badge text="beta" type="warning"/>
@@ -45,13 +40,13 @@ git clone https://github.com/SDUOJ/sduoj-deploy.git
 * 进入 `sduoj-deploy` 项目目录
 
 ```shell
-cd sduoj-deploy/example
+cd sduoj-deploy
 ```
 
-* 执行 `docker compose` (注意不是 `docker-compose`) 启动预编排好的各个服务
+* 执行 `docker compose` (注意不是 `docker-compose`) 启动编排好的各个服务
 
 ```shell
-docker compose -f pseudo-distributed-ip.yaml up
+sudo docker compose  up
 ```
 
 * 在 URL 中访问你的服务器 IP 即可，一些初始账号如下，安全起见请注意修改：
