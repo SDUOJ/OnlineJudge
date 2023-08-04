@@ -1,13 +1,23 @@
-<img align="right" src="docs/.vuepress/public/img/logo.png" width=200 />
+<img align="right" src="website/static/img/sduoj-logo.svg" width=200 />
 
 *如果觉得对您有帮助或者对该产品感兴趣，请您给点一个 Star，谢谢！*
 
-# Online Judge
+# SDUOJ/[Online Judge](https://sduoj.online)
 
+[![Java](https://img.shields.io/badge/Java-8-informational)](http://openjdk.java.net/)
+[![WebSite](https://img.shields.io/website?up_message=sduoj.online&url=https%3A%2F%2Fsduoj.online%2F)](https://sduoj.online/)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.1.12-success)](https://spring.io/projects/spring-boot)
+[![Spring Cloud](https://img.shields.io/badge/Spring%20Cloud-Greenwich.SR5-success)](https://spring.io/projects/spring-cloud)
+[![Spring Cloud Alibaba](https://img.shields.io/badge/Spring%20Cloud%20Alibaba-2.1.2-success)](https://spring.io/projects/spring-cloud-alibaba)
+[![MySQL](https://img.shields.io/badge/MySQL-8-blue)](https://www.mysql.com/)
+[![Vue](https://img.shields.io/badge/Vue-2.6.11-success)](https://vuejs.org/)
+[![License](https://img.shields.io/github/license/SDUOJ/OnlineJudge)](https://github.com/SDUOJ/OnlineJudge/blob/main/LICENSE)
+[![Github Star](https://img.shields.io/github/stars/SDUOJ/OnlineJudge?style=social)](https://github.com/SDUOJ/OnlineJudge)
 
-> [Open Source Online Judge System 开源在线评测系统](https://github.com/SDUOJ/OnlineJudge) <br />
-  [→ 文档（国内源，加速访问）](https://sduoj.gitee.io)  <br />
-  [→ 文档（国际源）](https://sduoj.online) 
+> SDUOJ 是一款开源在线评测系统（Online Judge, OJ）
+> 
+> [→ 查看文档](https://sduoj.online)
+> 
 
 <br />
 
@@ -33,7 +43,7 @@
 
 * 基于 Docker，公有云或物理机，均可一键部署！
 * 前后端分离，分布式微服务架构，可单独对某个服务动态扩缩容以应对不同场景的流量压力！
-* 评测机的多核平台调度方案，单点评测、多点评测，按需配置！  <img src="docs/.vuepress/public/img/image-20201122203804615.png" width=330 align="center"/>
+* 评测机的多核平台调度方案，单点评测、多点评测，按需配置！  <img src="website/static/img/home/image-20201122203804615.png" width=330 align="center"/>
 * 多种国际赛制支持（ACM/OI/IOI）！
 * 评测模板，可自定义添加多语言支持！更有进阶模式支持数据结构课设、汇编语言实验、操作系统课设等个性化评测场景！
 * 一题多面，同一道题目，可有多个题面！可支持中文、英文、俄文等多语言！可支持复杂、精炼、变形题面等多形式！
@@ -46,7 +56,7 @@
 
 | 仓库                                                         | 描述                                 |
 | ------------------------------------------------------------ | ------------------------------------ |
-| [SDUOJ/OnlineJudge](https://github.com/SDUOJ/OnlineJudge)    | 产品主仓库、Issue Tracker            |
+| [SDUOJ/OnlineJudge](https://github.com/SDUOJ/OnlineJudge)    | 产品主仓库、文档、Issue Tracker       |
 | [SDUOJ/sduoj-server](https://github.com/SDUOJ/sduoj-server)  | 后端代码仓库                         |
 | [SDUOJ/sduoj-web](https://github.com/SDUOJ/sduoj-web)        | 用户前端代码仓库                     |
 | [SDUOJ/sduoj-manage](https://github.com/SDUOJ/sduoj-manage)  | 管理员前端代码仓库                   |
@@ -54,56 +64,46 @@
 | [SDUOJ/sduoj-sandbox](https://github.com/SDUOJ/sduoj-sandbox) | 安全沙箱代码仓库                     |
 | [SDUOJ/sduoj-deploy](https://github.com/SDUOJ/sduoj-deploy)  | 部署代码仓库，含 Docker Compose 脚本 |
 
-### 前端截图
+### 网站截图
 
-<img src="docs/.vuepress/public/img/image-20201122210911513.png" style="zoom:80%;" />
+[用户使用手册](https://sduoj.online/docs/manual/user/home)
 
-<img src="docs/.vuepress/public/img/image-20201122211144679.png" style="zoom:80%;" />
+<img src="website/static/img/home/image-20201122210911513.png" style="zoom:80%;" />
 
-<img src="docs/.vuepress/public/img/image-20201122211232174.png" style="zoom:80%;" />
+<img src="website/static/img/home/image-20201122211144679.png" style="zoom:80%;" />
 
-<img src="docs/.vuepress/public/img/image-20201122212148575.png" style="zoom:80%;" />
+<img src="website/static/img/home/image-20201122211232174.png" style="zoom:80%;" />
+
+<img src="website/static/img/home/image-20201122212148575.png" style="zoom:80%;" />
 
 <details>
 <summary>更多截图，点击展开</summary>
 <br>
 
-<img src="docs/.vuepress/public/img/image-20201122210935648.png" style="zoom:80%;" />
+<img src="website/static/img/home/image-20201122210935648.png" style="zoom:80%;" />
 
-<img src="docs/.vuepress/public/img/image-20201122211308172.png" style="zoom:80%;" />
+<img src="website/static/img/home/image-20201122211308172.png" style="zoom:80%;" />
 
 
-<img src="docs/.vuepress/public/img/image-20201122212415897.png" style="zoom:80%;" />
+<img src="website/static/img/home/image-20201122212415897.png" style="zoom:80%;" />
 
-<img src="docs/.vuepress/public/img/image-20201122212452051.png" style="zoom:80%;" />
+<img src="website/static/img/home/image-20201122212452051.png" style="zoom:80%;" />
 
-<img src="docs/.vuepress/public/img/image-20201122212524787.png" style="zoom:80%;" />
+<img src="website/static/img/home/image-20201122212524787.png" style="zoom:80%;" />
 
-<img src="docs/.vuepress/public/img/image-20201122212606712.png" style="zoom:80%;" />
+<img src="website/static/img/home/image-20201122212606712.png" style="zoom:80%;" />
 
-<img src="docs/.vuepress/public/img/image-20201122212903607.png" style="zoom:80%;" />
+<img src="website/static/img/home/image-20201122212903607.png" style="zoom:80%;" />
 
-<img src="docs/.vuepress/public/img/image-20201122212835905.png" style="zoom:80%;" />
+<img src="website/static/img/home/image-20201122212835905.png" style="zoom:80%;" />
 
 </details>
 
 ### 搭建指南
 
-架构图：  <img src="docs/.vuepress/public/img/image-20201122204545807.png" width=650 align="center"/>
+架构图：<img src="website/static/img/home/image-20201122204545807.png" width=650 align="center"/>
 
-[Click here to deploy a SDUOJ](https://sduoj.online/deployment-guide/)
-
-### 技术博客
-
-主要是：
-* 产品理念
-* 前端技术
-* 后端技术
-* 评测机技术
-* 沙箱技术
-
-[Click here to view tech blog](https://sduoj.online/technology-blog/)
-
+[如何基于 Docker Compose 快速部署？](https://sduoj.online/docs/deployment/docker-compose)
 
 ### 浏览器支持
 

@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: SDUOJ
+message: 'If you use SDUOJ, please cite it as below.'
+type: software
+authors:
+  - given-names: SDUOJ
+repository-code: 'https://github.com/SDUOJ/OnlineJudge'
+version: 0.0.1-SNAPSHOT
+date-released: '2020-10-7'

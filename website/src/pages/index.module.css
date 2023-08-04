@@ -1,0 +1,28 @@
+.header {
+  text-align: center;
+}
+
+.header .hero {
+  width: 20rem;
+}
+
+.header .description {
+  font-size: 1.6rem;
+  color: #6a8bad;
+}
+
+.header .links {
+  margin: 1rem;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.header .links a {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 0.5rem 1.6rem;
+}
