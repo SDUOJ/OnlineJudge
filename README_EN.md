@@ -1,13 +1,12 @@
 <p align="center">
-    [中文]
-    <a href="./README_EN.md">[English]</a>
+    <a href="./README.md">[中文]</a>
+    [English]
 </p>
-
 <br>
 
 <img align="right" src="website/static/img/sduoj-logo.svg" width=200 />
 
-*如果觉得对您有帮助或者对该产品感兴趣，请您给点一个 Star，谢谢！*
+*If you find this helpful or interesting, please give it a star. Thank you!*
 
 # SDUOJ/[Online Judge](https://sduoj.online)
 
@@ -21,9 +20,9 @@
 [![License](https://img.shields.io/github/license/SDUOJ/OnlineJudge)](https://github.com/SDUOJ/OnlineJudge/blob/main/LICENSE)
 [![Github Star](https://img.shields.io/github/stars/SDUOJ?style=social)](https://github.com/SDUOJ/OnlineJudge)
 
-> SDUOJ 是一款开源在线评测系统（Online Judge, OJ）
+> SDUOJ is an open-source online judge (OJ)
 > 
-> [→ 查看文档](https://sduoj.online)
+> [→ View Documentation](https://sduoj.online)
 > 
 
 <br />
@@ -31,49 +30,50 @@
 <table>
     <tr>
         <td>
-            <h3>多业务场景</h3> 
-            <p>评测模板、一题多面、虚拟评测、国际赛制（ICPC/OI/IOI），广泛适用于实验训练、学生测试、赛事举办等场景</p>
+            <h3>Multiple Business Scenarios</h3> 
+            <p>Judging-template, multi-description problem, virtual judge, international competition formats (ICPC/OI/IOI), suitable for algorithm training, student exams, competition hosting, and other scenarios</p>
         </td>
         <td>
-            <h3>分布式架构</h3> 
-            <p>基于微服务设计，模块细分更适合业务迭代，分布式架构为高并发、高容错、高可用提供支持</p>
+            <h3>Distributed Architecture</h3> 
+            <p>Based on microservices design, detailed modules are more suitable for business iterations. Distributed architecture supports high concurrency, high fault tolerance, and high availability.</p>
         </td>
         <td>
-            <h3>容器级交付</h3> 
-            <p>提供 Docker 镜像，公有云或物理机，均可一键部署，一键扩缩容，以应对不同的流量场景和评测压力</p>
+            <h3>Container-level Delivery</h3> 
+            <p>Offers Docker images for one-click deployment on cloud or physical machines. Easily scale up or down to accommodate different traffic scenarios and evaluation pressures.</p>
         </td>
     </tr>
 </table>
 
 
-### 概览
+## Overview
 
-* 基于 Docker，公有云或物理机，均可一键部署！
-* 前后端分离，分布式微服务架构，可单独对某个服务动态扩缩容以应对不同场景的流量压力！
-* 评测机的多核平台调度方案，单点评测、多点评测，按需配置！  <img src="website/static/img/home/image-20201122203804615.png" width=330 align="center"/>
-* 多种国际赛制支持（ICPC/OI/IOI）！
-* 评测模板，可自定义添加多语言支持！更有进阶模式支持数据结构课设、汇编语言实验、操作系统课设等个性化评测场景！
-* 一题多面，同一道题目，可有多个题面！可支持中文、英文、俄文等多语言！可支持复杂、精炼、变形题面等多形式！
-* Markdown & HTML 题面支持，随意创作丰富多彩的题面！
-* 动态评测，提交后每个评测点实时返回评测结果！
-* 多评测点，单独赋分，动态调整测试点的顺序，直接选取测试点作为题面样例点！
-* ~~虚拟评测，支持世界上多个知名 OJ 系统的远程提交，让训练数据沉淀到一方系统，为未来传承宝贵的数据资产！~~
+* Based on Docker, deployable with one click on clouds or physical machines!
+* Frontend and backend separation with distributed microservices architecture. Dynamically scale individual services to handle different traffic pressures!
+* Judging system with multi-core scheduling. Single-point or multi-point judging are configurable! <img src="website/static/img/home/image-20201122203804615.png" width=330 align="center"/>
+* Supports various international competition formats (ICPC/OI/IOI)!
+* Judge templates allow for custom multi-language support! Advanced modes support personalized judging scenarios such as data-structure coursework, assembly language experiments, and operating system projects!
+* Multi-description problems, where a single problem can have multiple description! Supports languages like Chinese, English, Russian, and formats like complex, concise, or altered presentations!
+* Markdown & HTML description support, create colorful and diverse problems!
+* Dynamic judging, real-time results after submission for each checkpoint!
+* Multiple checkpoints, separate scoring, dynamic order adjustment of checkpoints, and direct selection of checkpoints as problem examples!
+* ~~Virtual judge, supporting remote submissions to several well-known OJ systems, accumulating valuable data assets for the future!~~
 
-### 项目仓库
 
-| 仓库                                                         | 描述                                 |
+## Repositories
+
+| Repositories                                                         | Description                                 |
 | ------------------------------------------------------------ | ------------------------------------ |
-| [SDUOJ/OnlineJudge](https://github.com/SDUOJ/OnlineJudge)    | 产品主仓库、文档、Issue Tracker       |
-| [SDUOJ/sduoj-server](https://github.com/SDUOJ/sduoj-server)  | 后端代码仓库                         |
-| [SDUOJ/sduoj-web](https://github.com/SDUOJ/sduoj-web)        | 用户前端代码仓库                     |
-| [SDUOJ/sduoj-manage](https://github.com/SDUOJ/sduoj-manage)  | 管理员前端代码仓库                   |
-| [SDUOJ/sduoj-judger](https://github.com/SDUOJ/sduoj-judger)  | 评测机代码仓库                       |
-| [SDUOJ/sduoj-sandbox](https://github.com/SDUOJ/sduoj-sandbox) | 安全沙箱代码仓库                     |
-| [SDUOJ/sduoj-deploy](https://github.com/SDUOJ/sduoj-deploy)  | 部署代码仓库，含 Docker Compose 脚本 |
+| [SDUOJ/OnlineJudge](https://github.com/SDUOJ/OnlineJudge)    | Main repository, documentation, Issue Tracker       |
+| [SDUOJ/sduoj-server](https://github.com/SDUOJ/sduoj-server)  | Backend code                         |
+| [SDUOJ/sduoj-web](https://github.com/SDUOJ/sduoj-web)        | User frontend code                     |
+| [SDUOJ/sduoj-manage](https://github.com/SDUOJ/sduoj-manage)  | Manager frontend code                   |
+| [SDUOJ/sduoj-judger](https://github.com/SDUOJ/sduoj-judger)  | Judger code                       |
+| [SDUOJ/sduoj-sandbox](https://github.com/SDUOJ/sduoj-sandbox) | Sandbox code                     |
+| [SDUOJ/sduoj-deploy](https://github.com/SDUOJ/sduoj-deploy)  | Deploying Code, with Docker Compose Scripts |
 
-### 网站截图
+### Website Screenshots
 
-[用户使用手册](https://sduoj.online/docs/manual/user/home)
+[See User Manual](https://sduoj.online/docs/manual/user/home)
 
 <img src="website/static/img/home/image-20201122210911513.png" style="zoom:80%;" />
 
@@ -84,7 +84,7 @@
 <img src="website/static/img/home/image-20201122212148575.png" style="zoom:80%;" />
 
 <details>
-<summary>更多截图，点击展开</summary>
+<summary>Click here for More Screenshots</summary>
 <br>
 
 <img src="website/static/img/home/image-20201122210935648.png" style="zoom:80%;" />
@@ -106,13 +106,13 @@
 
 </details>
 
-### 搭建指南
+## Deployment
 
-架构图：<img src="website/static/img/home/image-20201122204545807.png" width=650 align="center"/>
+Architecture diagram：<img src="website/static/img/home/image-20201122204545807.png" width=650 align="center"/>
 
-[如何基于 Docker Compose 快速部署？](https://sduoj.online/docs/deployment/docker-compose)
+[How to deploy quickly based on Docker Compose?](https://sduoj.online/docs/deployment/docker-compose)
 
-### 浏览器支持
+## Browser Support
 
 For Vue frontend:
 -  Modern browsers (chrome, firefox) 和 Internet Explorer 10+.
@@ -120,7 +120,7 @@ For Vue frontend:
 For React frontend:
 -  Microsoft Edge (85+), Google Chrome (85+), Mozilla Firefox (79+), Apple Safari (13.4+), Internet Explorer is not supported
 
-### 技术团队
+## Our Team
 <table>
     <tr>
         <td align="center">
@@ -218,7 +218,7 @@ For React frontend:
 
 
 
-### 许可
+## License
 
-基于 [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html) 开源协议。
+Released under the [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html).
 

@@ -29,11 +29,14 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "zh",
-    locales: ["zh"],
+    locales: ["zh", "en"],
     path: "i18n",
     localeConfigs: {
       zh: {
         label: "简体中文",
+      },
+      en: {
+        label: "English",
       },
     },
   },
@@ -80,13 +83,13 @@ const config = {
             type: "docSidebar",
             sidebarId: "manualSidebar",
             position: "left",
-            label: "使用手册",
+            label: "使用指南",
           },
           {
             type: "docSidebar",
             sidebarId: "deploymentSidebar",
             position: "left",
-            label: "部署手册",
+            label: "部署指南",
           },
           {
             href: "https://github.com/sduoj/OnlineJudge",

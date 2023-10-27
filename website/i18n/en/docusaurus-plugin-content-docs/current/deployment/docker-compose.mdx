@@ -1,0 +1,103 @@
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+# Quick Deployment with Docker Compose
+
+## Introduction
+
+This section only describes how to **quickly** set up an SDUOJ. It's not recommended for long-term production use.
+
+:::danger Note
+SDUOJ has not yet released its first stable version. For production purposes, the SDUOJ developers advise a wait-and-see attitude.
+:::
+
+## Prerequisites
+
+### Operating System
+
+- Linux (Tested: Ubuntu 20.04, Ubuntu 22.04, Debian 10)
+- macOS (Tested: Ventura 13.4.1)
+- ~~Windows~~ (Not Supported!)
+
+### Required Software
+
+- [git](https://git-scm.com/)
+- [docker](https://docs.docker.com/get-docker/): Version `23.0.2` or higher
+- [docker-compose-plugin](https://docs.docker.com/compose/install/linux/): Version `2.17.2` or higher
+
+You can verify using the following commands:
+
+```shell
+git version
+docker -v
+docker compose version
+```
+
+## Installing Required Software (On Ubuntu/Debian Systems)
+
+> If you already have these installed, skip this step
+
+<Tabs>
+  <TabItem value="proxy" label="Using Mirror" default>
+
+```shell
+export DOWNLOAD_URL="https://mirrors.cernet.edu.cn/docker-ce"
+sudo apt-get update \
+  && sudo apt-get install -qq -y curl git \
+  && curl -fsSL https://get.docker.com/ | sudo -E sh
+```
+
+  </TabItem>
+  <TabItem value="noproxy" label="Without Mirror">
+
+```shell
+sudo apt-get update \
+  && sudo apt-get install -qq -y curl git \
+  && curl -fsSL https://get.docker.com/ | sudo -E sh
+```
+
+  </TabItem>
+</Tabs>
+
+## All-in-One Deployment (Pseudo-Distributed)
+
+:::tip Recommended for Trial Machines
+
+- Use a pay-as-you-go model to launch a cloud server with 16G or more memory from a cloud service provider.
+- Install a Linux distribution on a virtual machine (Ubuntu 22.04 highly recommended).
+
+:::
+
+If you just plan to **simply** deploy an SDUOJ to explore and try it out, follow these commands:
+
+- Clone the `sduoj-deploy` project code
+
+```shell
+git clone https://github.com/SDUOJ/sduoj-deploy.git
+```
+
+- Enter the `sduoj-deploy` project directory
+
+```shell
+cd sduoj-deploy
+```
+
+- Execute `docker compose` (note it's not `docker-compose`) to start the orchestrated services
+
+```shell
+sudo docker compose up
+```
+
+- Access your server's IP through the URL, e.g., `http://127.0.0.1:80/` - replace `127.0.0.1` with your server's IP.
+
+Initial account details are as follows; for security reasons, please change them:
+
+- SDUOJ initial username and password are `superadmin` and `123456`, respectively. Please change.
+- Nacos initial username and password are both `sduoj`. Please change.
+- MySQL initial username and password are both `sduoj`. Please change.
+
+:::warning Note
+The ports for the database, message queue, and Nacos services are exposed. 
+If deploying temporarily on a public cloud, consider setting up **network security groups** and expose only necessary ports like 22, 80, etc.
+Do the same on your physical server.
+:::

@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "SDUOJ",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "SDUOJ Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.使用指南": {
+    "message": "Manuals",
+    "description": "Navbar item with label manuals"
+  },
+  "item.label.部署指南": {
+    "message": "Deployment",
+    "description": "Navbar item with label deployment"
+  }
+}

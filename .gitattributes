@@ -1,4 +1,7 @@
 * text=auto
-*.js text eol=lf
-*.md text eol=lf
-*.md -linguist-documentation linguist-language=Java
+* text eol=lf
+*.js linguist-language=Java
+*.css linguist-language=Java
+*.ts linguist-language=Java
+*.tsx linguist-language=Java
+*.json linguist-language=Java

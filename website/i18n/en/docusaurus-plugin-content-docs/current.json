@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.manualSidebar.category.用户手册": {
+    "message": "User Manual",
+    "description": "The label for category user-manual in sidebar manualSidebar"
+  },
+  "sidebar.manualSidebar.category.管理手册": {
+    "message": "Manager Manual",
+    "description": "The label for category manager-manual in sidebar manualSidebar"
+  },
+  "sidebar.deploymentSidebar.category.快速开始": {
+    "message": "Quick Start",
+    "description": "The label for category quick-start in sidebar deploymentSidebar"
+  }
+}
