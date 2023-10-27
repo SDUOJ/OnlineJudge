@@ -18,6 +18,9 @@ const sidebars = {
     {
       type: "category",
       label: "用户手册",
+      link: {
+        type: "generated-index",
+      },
       items: [
         "manual/user/home",
         "manual/user/user",
@@ -29,6 +32,9 @@ const sidebars = {
     {
       type: "category",
       label: "管理手册",
+      link: {
+        type: "generated-index",
+      },
       items: [
         "manual/manager/user",
         "manual/manager/problem",
@@ -41,9 +47,10 @@ const sidebars = {
     {
       type: "category",
       label: "快速开始",
-      items: [
-        "deployment/docker-compose",
-      ],
+      link: {
+        type: "generated-index",
+      },
+      items: ["deployment/docker-compose"],
     },
   ],
 };

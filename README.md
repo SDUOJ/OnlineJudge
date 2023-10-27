@@ -12,7 +12,7 @@
 [![MySQL](https://img.shields.io/badge/MySQL-8-blue)](https://www.mysql.com/)
 [![Vue](https://img.shields.io/badge/Vue-2.6.11-success)](https://vuejs.org/)
 [![License](https://img.shields.io/github/license/SDUOJ/OnlineJudge)](https://github.com/SDUOJ/OnlineJudge/blob/main/LICENSE)
-[![Github Star](https://img.shields.io/github/stars/SDUOJ/OnlineJudge?style=social)](https://github.com/SDUOJ/OnlineJudge)
+[![Github Star](https://img.shields.io/github/stars/SDUOJ?style=social)](https://github.com/SDUOJ/OnlineJudge)
 
 > SDUOJ 是一款开源在线评测系统（Online Judge, OJ）
 > 

@@ -17,12 +17,12 @@ SDUOJ 尚未发布第一个稳定版本，对于生产用途 SDUOJ 开发者建�
 
 - Linux（已测试：Ubuntu 20.04, Ubuntu 22.04, Debian 10）
 - macOS（已测试：Ventura 13.4.1）
-- ~~Windows~~
+- ~~Windows~~（不支持！）
 
 ### 必备软件
 
 - [git](https://git-scm.com/)
-- [docker](https://docs.docker.com/get-docker/) ：版本大于等于 `23.0.2`
+- [docker](https://docs.docker.com/get-docker/)：版本大于等于 `23.0.2`
 - [docker-compose-plugin](https://docs.docker.com/compose/install/linux/)：版本大于等于 `2.17.2`
 
 可使用以下命令验证：
@@ -33,12 +33,12 @@ docker -v
 docker compose version
 ```
 
-## 安装必备软件（Ubuntu、Debian）
+## 安装必备软件（在 Ubuntu、Debian 系统）
 
 > 如果您的环境已装有，请跳过这一步
 
 <Tabs>
-  <TabItem value="proxy" label="使用代理" default>
+  <TabItem value="proxy" label="使用镜像" default>
 
 ```shell
 export DOWNLOAD_URL="https://mirrors.cernet.edu.cn/docker-ce"
@@ -48,7 +48,7 @@ sudo apt-get update \
 ```
 
   </TabItem>
-  <TabItem value="noproxy" label="无需代理">
+  <TabItem value="noproxy" label="无需镜像">
 
 ```shell
 sudo apt-get update \
@@ -59,7 +59,7 @@ sudo apt-get update \
   </TabItem>
 </Tabs>
 
-## 单机部署（伪分布式）
+## 单机部署（伪分布式，All-in-One）
 
 :::tip 尝鲜机器建议
 
