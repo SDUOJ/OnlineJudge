@@ -1,7 +1,7 @@
 name: gh-pages
 
 on: 
-  workflow_dispatch: # add manually button
+  workflow_dispatch: # allow running this workflow manually from the Actions tab
   push:
     branches: 
       - main
@@ -22,7 +22,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - uses: actions/setup-node@v3
         with:
@@ -30,18 +30,17 @@ jobs:
           cache: "yarn"
           cache-dependency-path: website/yarn.lock
 
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v3
-
       - name: Build
         run: |
           cd website
           yarn
           yarn build
 
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: "./website/build"
 
@@ -54,4 +53,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4

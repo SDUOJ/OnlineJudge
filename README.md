@@ -1,7 +1,9 @@
 <p align="center">
-    [中文]
-    <a href="./README_EN.md">[English]</a>
+    简体中文
+    |
+    <a href="./README_EN.md">English</a>
 </p>
+
 
 <br>
 
@@ -9,21 +11,21 @@
 
 *如果觉得对您有帮助或者对该产品感兴趣，请您给点一个 Star，谢谢！*
 
-# SDUOJ/[Online Judge](https://sduoj.online)
+# SDUOJ/[Online Judge](https://docs.sduoj.com)
 
 [![Java](https://img.shields.io/badge/Java-8-informational)](http://openjdk.java.net/)
-[![WebSite](https://img.shields.io/website?up_message=sduoj.online&url=https%3A%2F%2Fsduoj.online%2F)](https://sduoj.online/)
+[![WebSite](https://img.shields.io/website?up_message=docs.sduoj.com&url=https%3A%2F%2Fdocs.sduoj.com%2F)](https://docs.sduoj.com/)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.1.12-success)](https://spring.io/projects/spring-boot)
 [![Spring Cloud](https://img.shields.io/badge/Spring%20Cloud-Greenwich.SR5-success)](https://spring.io/projects/spring-cloud)
 [![Spring Cloud Alibaba](https://img.shields.io/badge/Spring%20Cloud%20Alibaba-2.1.2-success)](https://spring.io/projects/spring-cloud-alibaba)
 [![MySQL](https://img.shields.io/badge/MySQL-8-blue)](https://www.mysql.com/)
 [![Vue](https://img.shields.io/badge/Vue-2.6.11-success)](https://vuejs.org/)
 [![License](https://img.shields.io/github/license/SDUOJ/OnlineJudge)](https://github.com/SDUOJ/OnlineJudge/blob/main/LICENSE)
-[![Github Star](https://img.shields.io/github/stars/SDUOJ?style=social)](https://github.com/SDUOJ/OnlineJudge)
+[![Github Star](https://img.shields.io/github/stars/SDUOJ/OnlineJudge?style=social)](https://github.com/SDUOJ/OnlineJudge)
 
 > SDUOJ 是一款开源在线评测系统（Online Judge, OJ）
 > 
-> [→ 查看文档](https://sduoj.online)
+> [→ 查看文档](https://docs.sduoj.com)
 > 
 
 <br />
@@ -46,7 +48,7 @@
 </table>
 
 
-### 概览
+## 概览
 
 * 基于 Docker，公有云或物理机，均可一键部署！
 * 前后端分离，分布式微服务架构，可单独对某个服务动态扩缩容以应对不同场景的流量压力！
@@ -59,7 +61,7 @@
 * 多评测点，单独赋分，动态调整测试点的顺序，直接选取测试点作为题面样例点！
 * ~~虚拟评测，支持世界上多个知名 OJ 系统的远程提交，让训练数据沉淀到一方系统，为未来传承宝贵的数据资产！~~
 
-### 项目仓库
+## 项目仓库
 
 | 仓库                                                         | 描述                                 |
 | ------------------------------------------------------------ | ------------------------------------ |
@@ -71,9 +73,9 @@
 | [SDUOJ/sduoj-sandbox](https://github.com/SDUOJ/sduoj-sandbox) | 安全沙箱代码仓库                     |
 | [SDUOJ/sduoj-deploy](https://github.com/SDUOJ/sduoj-deploy)  | 部署代码仓库，含 Docker Compose 脚本 |
 
-### 网站截图
+## 网站截图
 
-[用户使用手册](https://sduoj.online/docs/manual/user/home)
+[用户使用手册](https://docs.sduoj.com/docs/manual/user/home)
 
 <img src="website/static/img/home/image-20201122210911513.png" style="zoom:80%;" />
 
@@ -106,13 +108,13 @@
 
 </details>
 
-### 搭建指南
+## 搭建指南
 
 架构图：<img src="website/static/img/home/image-20201122204545807.png" width=650 align="center"/>
 
-[如何基于 Docker Compose 快速部署？](https://sduoj.online/docs/deployment/docker-compose)
+[如何基于 Docker Compose 快速部署？](https://docs.sduoj.com/docs/deployment/docker-compose)
 
-### 浏览器支持
+## 浏览器支持
 
 For Vue frontend:
 -  Modern browsers (chrome, firefox) 和 Internet Explorer 10+.
@@ -120,7 +122,12 @@ For Vue frontend:
 For React frontend:
 -  Microsoft Edge (85+), Google Chrome (85+), Mozilla Firefox (79+), Apple Safari (13.4+), Internet Explorer is not supported
 
-### 技术团队
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=SDUOJ/OnlineJudge&type=Date)](https://star-history.com/#SDUOJ/OnlineJudge&Date)
+
+## 技术团队
+
 <table>
     <tr>
         <td align="center">
@@ -151,21 +158,21 @@ For React frontend:
             <br />
             <a href="https://github.com/koi2000" target="_blank">koi2000</a>
             <br />
-            <strong> Backend </strong>
+            <strong> Honorary MBR. </strong>
         </td>
         <td align="center">
             <img src="https://github.com/HYLazy.png?s=64" width="65px;"/>
             <br />
             <a href="https://github.com/HYLazy" target="_blank">HYLazy</a>
             <br />
-            <strong> Backend </strong>
+            <strong> Honorary MBR. </strong>
         </td>
         <td align="center">
             <img src="https://github.com/zhaoyifan0528.png?s=64" width="65px;"/>
             <br />
             <a href="https://github.com/zhaoyifan0528" target="_blank">zhaoyifan0528</a>
             <br />
-            <strong> Backend </strong>
+            <strong> Honorary MBR. </strong>
         </td>
     </tr>
     <tr>
@@ -174,21 +181,21 @@ For React frontend:
             <br />
             <a href="https://github.com/OldAtaraxia" target="_blank">OldAtaraxia</a>
             <br />
-            <strong> Backend </strong>
+            <strong> Honorary MBR. </strong>
         </td>
         <td align="center">
             <img src="https://github.com/zhr2001.png?s=64" width="65px;"/>
             <br />
             <a href="https://github.com/zhr2001" target="_blank">zhr2001</a>
             <br />
-            <strong> Frontend </strong>
+            <strong> Honorary MBR. </strong>
         </td>
         <td align="center">
             <img src="https://github.com/sys16384.png?s=64" width="65px;"/>
             <br />
             <a href="https://github.com/sys16384" target="_blank">sys16384</a>
             <br />
-            <strong> Plagiarism Detection </strong>
+            <strong> Honorary MBR. </strong>
         </td>
     </tr>
     <tr>
@@ -197,28 +204,28 @@ For React frontend:
             <br />
             <a href="https://github.com/GeneLiuXe" target="_blank">GeneLiuXe</a>
             <br />
-            <strong> Honorary Mem. </strong>
+            <strong> Honorary MBR. </strong>
         </td>
         <td align="center">
             <img src="https://github.com/suxb201.png?s=64" width="65px;"/>
             <br />
             <a href="https://github.com/suxb201" target="_blank">suxb201</a>
             <br />
-            <strong> Honorary Mem. </strong>
+            <strong> Honorary MBR. </strong>
         </td>
         <td align="center">
             <img src="https://github.com/Xrvitd.png?s=64" width="65px;"/>
             <br />
             <a href="https://github.com/Xrvitd" target="_blank">Xrvitd</a>
             <br />
-            <strong> Honorary Mem. </strong>
+            <strong> Honorary MBR. </strong>
         </td>
     </tr>
 </table>
 
 
 
-### 许可
+## 开源许可
 
 基于 [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html) 开源协议。
 

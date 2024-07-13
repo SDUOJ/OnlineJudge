@@ -1,5 +1,12 @@
 * text=auto
 * text eol=lf
+
+# Don't do anything with binaries
+*.png binary
+*.jpg binary
+*.svg binary
+*.jpeg binary
+
 *.js linguist-language=Java
 *.css linguist-language=Java
 *.ts linguist-language=Java

@@ -1,6 +1,7 @@
 <p align="center">
-    <a href="./README.md">[中文]</a>
-    [English]
+    <a href="./README.md">简体中文</a>
+    |
+    English
 </p>
 <br>
 
@@ -8,21 +9,21 @@
 
 *If you find this helpful or interesting, please give it a star. Thank you!*
 
-# SDUOJ/[Online Judge](https://sduoj.online)
+# SDUOJ/[Online Judge](https://docs.sduoj.com)
 
 [![Java](https://img.shields.io/badge/Java-8-informational)](http://openjdk.java.net/)
-[![WebSite](https://img.shields.io/website?up_message=sduoj.online&url=https%3A%2F%2Fsduoj.online%2F)](https://sduoj.online/)
+[![WebSite](https://img.shields.io/website?up_message=docs.sduoj.com&url=https%3A%2F%2Fdocs.sduoj.com%2F)](https://docs.sduoj.com/)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.1.12-success)](https://spring.io/projects/spring-boot)
 [![Spring Cloud](https://img.shields.io/badge/Spring%20Cloud-Greenwich.SR5-success)](https://spring.io/projects/spring-cloud)
 [![Spring Cloud Alibaba](https://img.shields.io/badge/Spring%20Cloud%20Alibaba-2.1.2-success)](https://spring.io/projects/spring-cloud-alibaba)
 [![MySQL](https://img.shields.io/badge/MySQL-8-blue)](https://www.mysql.com/)
 [![Vue](https://img.shields.io/badge/Vue-2.6.11-success)](https://vuejs.org/)
 [![License](https://img.shields.io/github/license/SDUOJ/OnlineJudge)](https://github.com/SDUOJ/OnlineJudge/blob/main/LICENSE)
-[![Github Star](https://img.shields.io/github/stars/SDUOJ?style=social)](https://github.com/SDUOJ/OnlineJudge)
+[![Github Star](https://img.shields.io/github/stars/SDUOJ/OnlineJudge?style=social)](https://github.com/SDUOJ/OnlineJudge)
 
 > SDUOJ is an open-source online judge (OJ)
 > 
-> [→ View Documentation](https://sduoj.online)
+> [→ View Documentation](https://docs.sduoj.com)
 > 
 
 <br />
@@ -73,7 +74,7 @@
 
 ### Website Screenshots
 
-[See User Manual](https://sduoj.online/docs/manual/user/home)
+[See User Manual](https://docs.sduoj.com/docs/manual/user/home)
 
 <img src="website/static/img/home/image-20201122210911513.png" style="zoom:80%;" />
 
@@ -110,7 +111,7 @@
 
 Architecture diagram：<img src="website/static/img/home/image-20201122204545807.png" width=650 align="center"/>
 
-[How to deploy quickly based on Docker Compose?](https://sduoj.online/docs/deployment/docker-compose)
+[How to deploy quickly based on Docker Compose?](https://docs.sduoj.com/docs/deployment/docker-compose)
 
 ## Browser Support
 
@@ -119,6 +120,10 @@ For Vue frontend:
 
 For React frontend:
 -  Microsoft Edge (85+), Google Chrome (85+), Mozilla Firefox (79+), Apple Safari (13.4+), Internet Explorer is not supported
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=SDUOJ/OnlineJudge&type=Date)](https://star-history.com/#SDUOJ/OnlineJudge&Date)
 
 ## Our Team
 <table>
@@ -151,21 +156,21 @@ For React frontend:
             <br />
             <a href="https://github.com/koi2000" target="_blank">koi2000</a>
             <br />
-            <strong> Backend </strong>
+            <strong> Honorary MBR. </strong>
         </td>
         <td align="center">
             <img src="https://github.com/HYLazy.png?s=64" width="65px;"/>
             <br />
             <a href="https://github.com/HYLazy" target="_blank">HYLazy</a>
             <br />
-            <strong> Backend </strong>
+            <strong> Honorary MBR. </strong>
         </td>
         <td align="center">
             <img src="https://github.com/zhaoyifan0528.png?s=64" width="65px;"/>
             <br />
             <a href="https://github.com/zhaoyifan0528" target="_blank">zhaoyifan0528</a>
             <br />
-            <strong> Backend </strong>
+            <strong> Honorary MBR. </strong>
         </td>
     </tr>
     <tr>
@@ -174,21 +179,21 @@ For React frontend:
             <br />
             <a href="https://github.com/OldAtaraxia" target="_blank">OldAtaraxia</a>
             <br />
-            <strong> Backend </strong>
+            <strong> Honorary MBR. </strong>
         </td>
         <td align="center">
             <img src="https://github.com/zhr2001.png?s=64" width="65px;"/>
             <br />
             <a href="https://github.com/zhr2001" target="_blank">zhr2001</a>
             <br />
-            <strong> Frontend </strong>
+            <strong> Honorary MBR. </strong>
         </td>
         <td align="center">
             <img src="https://github.com/sys16384.png?s=64" width="65px;"/>
             <br />
             <a href="https://github.com/sys16384" target="_blank">sys16384</a>
             <br />
-            <strong> Plagiarism Detection </strong>
+            <strong> Honorary MBR. </strong>
         </td>
     </tr>
     <tr>
@@ -197,21 +202,21 @@ For React frontend:
             <br />
             <a href="https://github.com/GeneLiuXe" target="_blank">GeneLiuXe</a>
             <br />
-            <strong> Honorary Mem. </strong>
+            <strong> Honorary MBR. </strong>
         </td>
         <td align="center">
             <img src="https://github.com/suxb201.png?s=64" width="65px;"/>
             <br />
             <a href="https://github.com/suxb201" target="_blank">suxb201</a>
             <br />
-            <strong> Honorary Mem. </strong>
+            <strong> Honorary MBR. </strong>
         </td>
         <td align="center">
             <img src="https://github.com/Xrvitd.png?s=64" width="65px;"/>
             <br />
             <a href="https://github.com/Xrvitd" target="_blank">Xrvitd</a>
             <br />
-            <strong> Honorary Mem. </strong>
+            <strong> Honorary MBR. </strong>
         </td>
     </tr>
 </table>
